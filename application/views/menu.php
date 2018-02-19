@@ -66,11 +66,7 @@
                   </div>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Us</a>
-                  <div class="dropdown-menu">
-                     <a class="dropdown-item" href="contact1.html">Contact us 1</a>
-                     <a class="dropdown-item" href="contact2.html">Contact us 2</a>
-                  </div>
+                  <a class="nav-link" href="<?=base_url('person')?>">บุคลากร <span class="sr-only">(current)</span></a>
                </li>
             </ul>
             <form class="form-inline">
