@@ -13,41 +13,28 @@
          <div class="collapse navbar-collapse" id="main-menu">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
                <li class="nav-item active">
-                  <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link active" href="<?=site_url("main")?>">หน้าหลัก <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">เกี่ยวกับสำนักวิชา</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="about-us.html">About Us</a>
-                     <a class="dropdown-item" href="about-us2.html">About Us 2</a>
-                     <a class="dropdown-item" href="team-page.html">Team Members</a>
-                     <a class="dropdown-item" href="services.html">Services</a>
-                     <a class="dropdown-item" href="service2.html">Services 2</a>
-                     <a class="dropdown-item" href="contact1.html">Contact Us</a>
-                     <a class="dropdown-item" href="contact1.html">Contact Us 2</a>
-                     <a class="dropdown-item" href="pricing.html">Pricing</a>
-                     <a class="dropdown-item" href="404.html">404</a>
+                     <a class="dropdown-item" href="about-us.html">ความเป็นมา
+</a>
+                     <a class="dropdown-item" href="about-us2.html">ปรัชญา/วิสัยทัศน์/พันธกิจ</a>
+                     <a class="dropdown-item" href="team-page.html">อัตลักษณ์นักศึกษา</a>
+                     <a class="dropdown-item" href="services.html">บุคลากร</a>
                   </div>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shortcodes</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">หลักสูตร</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="accordions.html">Accordions</a>
-                     <a class="dropdown-item" href="tabs.html">Tabs</a>
-                     <a class="dropdown-item" href="buttons.html">Buttons</a>
-                     <a class="dropdown-item" href="skills.html">Progress Bars</a>
-                     <a class="dropdown-item" href="testimonials.html">Testimonials</a>
-                     <a class="dropdown-item" href="clients.html">Clients</a>
-                     <a class="dropdown-item" href="icon.html">Icon Boxes</a>
-                     <a class="dropdown-item" href="team.html">Team</a>
-                     <a class="dropdown-item" href="carousel.html">Carousel</a>
                      <a class="dropdown-item" href="maps.html">Google Maps</a>
                      <a class="dropdown-item" href="pricing.html">Pricing tables</a>
                      <a class="dropdown-item" href="notification.html">Notification</a>
                   </div>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">นักศึกษาปัจจุบัน</a>
                   <div class="dropdown-menu">
                      <a class="dropdown-item" href="portfolio-col-2.html">Portfolio 2 Columns</a>
                      <a class="dropdown-item" href="portfolio-col-3.html">Portfolio 3 Columns</a>
@@ -56,13 +43,14 @@
                   </div>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ข่าว</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="sidebar-right.html">Sidebar Right</a>
-                     <a class="dropdown-item" href="sidebar-left.html">Sidebar Left</a>
-                     <a class="dropdown-item" href="sidebar-full.html">Full Width</a>
-                     <a class="dropdown-item" href="blog-single.html">Single Post</a>
-                     <a class="dropdown-item" href="blog-grids.html">Blog Grids</a>
+                     <a class="dropdown-item" href="sidebar-right.html">ข่าวประชาสัมพันธ์</a>
+                     <a class="dropdown-item" href="sidebar-left.html">ข่าวกิจกรรม</a>
+                     <!-- <a class="dropdown-item" href="sidebar-full.html"></a>
+                     <a class="dropdown-item" href="blog-single.html"></a>
+                     <a class="dropdown-item" href="blog-grids.html"></a>
+                      -->
                   </div>
                </li>
                <li class="nav-item dropdown">

@@ -501,6 +501,7 @@ i:hover {
 .square-spin img {
   max-width: 64px;
 }
+
 #carousel-area {
   overflow: hidden;
   background: #2c3e50;
@@ -511,7 +512,16 @@ i:hover {
   overflow: hidden;
   transition-property: opacity;
   transition-duration: 1s;
+
+  /*height: 400px;*/
 }
+
+.carousel-item > img  {
+      height: 100%;
+      width: 100%;
+    }
+
+
 #carousel-area .carousel-inner .active {
   opacity: 1;
 }
