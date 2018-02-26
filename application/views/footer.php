@@ -3,74 +3,97 @@
       <div class="row section">
          <div class="footer-widget col-md-3 col-xs-12 wow fadeIn">
             <h3 class="small-title">
-               ABOUT US
+               สำนักวิชาสารสนเทศศาสตร์
             </h3>
             <p>
-               Etiam ornare condimentum massa et scelerisque. Mauris nibh ipsum, laoreet at venenatis ac, rutrum sed risus,
+               ผู้นำในการสร้างสรรค์นวัตกรรมด้านดิจิทัลแห่งอาเซียน  (Leader in Digital Innovation of  ASEAN ) 
             </p>
-            <p>Aliquam magna nibh, mattis a urna nec. Semper venenatis magna.</p>
             <div class="social-footer">
                <a href="#"><i class="fa fa-facebook icon-round"></i></a>
-               <a href="#"><i class="fa fa-twitter icon-round"></i></a>
-               <a href="#"><i class="fa fa-linkedin icon-round"></i></a>
+               <!--  <a href="#"><i class="fa fa-twitter icon-round"></i></a> -->
+               <a href="#"><i class="fa fa-youtube icon-round"></i></a>
                <a href="#"><i class="fa fa-google-plus icon-round"></i></a>
             </div>
          </div>
-         <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".2s">
+         <div class="footer-widget col-md-6 col-xs-12 wow fadeIn" data-wow-delay=".2s">
             <h3 class="small-title">
-               TWITTER
-            </h3>
-            <ul class="recent-tweets">
-               <li class="tweet">
-                  My <a href="#">@Quora</a>
-                  <span class="tweet-text">
-                  answer to What's the best FAQ plugin for WordPress?
-                  </span>
-                  <a href="#">qr.ae/RFTbIGa</a>
-                  <span class="tweet-date">
-                  August 21, 2015 10:29pm
-                  </span>
-               </li>
-               <li class="tweet">
-                  WPB Advanced FAQ | Probably The Best WordPress FAQ Plugin <a href="#">wpbean.com/wpb-advanced-faq-pr…</a>
-                  <span class="tweet-text">
-                  via
-                  </span>
-                  <a href="#">@wpbean</a>
-                  <span class="tweet-date">
-                  August 19, 2015 8:49 am
-                  </span>
-               </li>
-            </ul>
-         </div>
-         <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".5s">
-            <h3 class="small-title">
-               GALLERY
-            </h3>
-            <div class="plain-flicker-gallery">
-               <a href="#" title="Pan Masala"><img src="<?= base_url(); ?>assets/img/flicker/img1.jpg" alt=""></a>
-               <a href="#" title="Sports Template for Joomla"><img src="<?= base_url(); ?>assets/img/flicker/img2.jpg" alt=""></a>
-               <a href="" title="Apple Keyboard"><img src="<?= base_url(); ?>assets/img/flicker/img3.jpg" alt=""></a>
-               <a href="" title="Hard Working"><img src="<?= base_url(); ?>assets/img/flicker/img4.jpg" alt=""></a>
-               <a href="" title="Smile"><img src="<?= base_url(); ?>assets/img/flicker/img5.jpg" alt=""></a>
-               <a href="" title="Puzzle"><img src="<?= base_url(); ?>assets/img/flicker/img6.jpg" alt=""></a>
+               ioi(nformatics) where “i” is beyond information
+            </h3> 
+            <div class="row">
+            <div class="col-md-6 col-xs-12 wow fadeIn" data-wow-delay=".2s">
+                <ul class="social-footer">
+                    <li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round"></i>dea ความคิดริเริ่ม</a>
+                   		</div>
+                   	</li>
+                   	<li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round" ></i>ntelligent ความฉลาด</a>
+                   		</div>
+                   	</li>
+                   	<li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round" ></i>ntegrity  ความซื่อสัตย์</a>
+                   		</div>
+                   	</li>
+                   	<li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round"></i>nfinity ความไม่สิ้นสุด</a>
+                   		</div>
+                   	</li>
+                   	<li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round"></i>nternational ความเป็นสากล</a>
+                   		</div>
+                   	</li>
+                </ul>
             </div>
+            <div class="col-md-6 col-xs-12 wow fadeIn" data-wow-delay=".2s">
+                <ul class="recent-tweets">
+                		<li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round"></i>ncubation การบ่มเพาะ</a>
+                   		</div>
+                   	</li>
+                   	<li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round"></i>nnovation นวัตกรรม</a>
+                   		</div>
+                   	</li>
+                   	<li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round"></i>magination จินตนาการ</a>
+                   		</div>
+                   	</li>
+                   	<li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round"></i>nvention การประดิษฐ์</a>
+                   		</div>
+                   	</li>
+                   	<li>
+                    		<div class="social-footer">
+                   			<a href="#"><i class="fa fa-info icon-round"></i>nspiration แรงบันดาลใจ</a>
+                   		</div>
+                   	</li>
+                </ul>
+            </div>
+            </div>
+            
          </div>
+         
          <div class="footer-widget col-md-3 col-xs-12 wow fadeIn" data-wow-delay=".8s">
             <h3 class="small-title">
-               SUBSCRIBE US
+               ติดต่อเรา
             </h3>
             <div class="contact-us">
-               <p>Tellus aliquam at. Pellentesque gravida vel eros et pretium</p>
-               <form>
-                  <div class="form-group">
-                     <input type="text" class="form-control" id="exampleInputName2" placeholder="Enter your name">
-                  </div>
-                  <div class="form-group">
-                     <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter your email">
-                  </div>
-                  <button type="submit" class="btn btn-common">Submit</button>
-               </form>
+               <p>สำนักวิชาสารสนเทศศาสตร์ อาคารวิชาการ 3 มหาวิทยาลัยวลัยลักษณ์ 222 ต.ไทยบุรี อ.ท่าศาลา จ.นครศรีธรรมราช 80160</p>
+               <div class="social-footer">
+               	<a href="#"><i class="fa fa-phone icon-round"></i>07567 2206-7</a>
+               </div>
+               <div class="social-footer">
+               	<a href="#"><i class="fa fa-fax icon-round"></i>07567 2205</a>
+               </div>
             </div>
          </div>
       </div>

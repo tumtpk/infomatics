@@ -3,8 +3,10 @@
    <nav class="navbar navbar-expand-md">
       <div class="container">
          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">
-            <img src="<?= base_url(); ?>assets/img/logo.png" alt="">
+            <a class="navbar-brand" href="<?=site_url("main")?>">
+            <img height="80" width="250" src="<?= base_url(); ?>assets/img/logo/LOGO_INFO.png" alt="">
+            <!-- School of Informatics  -->
+            
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,35 +20,34 @@
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">เกี่ยวกับสำนักวิชา</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="about-us.html">ความเป็นมา
+                     <a class="dropdown-item" href="<?=site_url("main/history")?>">ความเป็นมา
 </a>
-                     <a class="dropdown-item" href="about-us2.html">ปรัชญา/วิสัยทัศน์/พันธกิจ</a>
-                     <a class="dropdown-item" href="team-page.html">อัตลักษณ์นักศึกษา</a>
-                     <a class="dropdown-item" href="services.html">บุคลากร</a>
+                     <a class="dropdown-item" href="<?=site_url("main/philosophy")?>">ปรัชญา/วิสัยทัศน์/พันธกิจ</a>
+                     <a class="dropdown-item" href="<?=site_url("main/Identities")?>">อัตลักษณ์นักศึกษา</a>
+                     <a class="dropdown-item" href="<?=site_url("person")?>">บุคลากร</a>
                   </div>
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">หลักสูตร</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="maps.html">Google Maps</a>
-                     <a class="dropdown-item" href="pricing.html">Pricing tables</a>
-                     <a class="dropdown-item" href="notification.html">Notification</a>
+                     <a class="dropdown-item" href="<?=site_url("main/undergraduate")?>">หลักสูตรปริญญาตรี</a>
+                     <a class="dropdown-item" href="<?=site_url("main/graduate")?>">หลักสูตรปริญญาโท-เอก</a>
+                     <a class="dropdown-item" href="<?=site_url("main")?>">ผู้สนใจศึกษาต่อ</a>
                   </div>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">นักศึกษาปัจจุบัน</a>
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">นักศึกษา</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="portfolio-col-2.html">Portfolio 2 Columns</a>
-                     <a class="dropdown-item" href="portfolio-col-3.html">Portfolio 3 Columns</a>
-                     <a class="dropdown-item" href="portfolio-col-4.html">Portfolio 4 Columns</a>
-                     <a class="dropdown-item" href="portfolio-item.html">Portfolio Single</a>
+                     <a class="dropdown-item" href="<?=site_url("main/new_student")?>">ผู้สนใจศึกษาต่อ</a>
+                     <a class="dropdown-item" href="<?=site_url("main/student")?>">นักศึกษาปัจจุบัน</a>
+                     <a class="dropdown-item" href="<?=site_url("main/old_student")?>">ศิษย์เก่า</a>
                   </div>
                </li>
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ข่าว</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="sidebar-right.html">ข่าวประชาสัมพันธ์</a>
-                     <a class="dropdown-item" href="sidebar-left.html">ข่าวกิจกรรม</a>
+                     <a class="dropdown-item" href="<?=site_url("main")?>">ข่าวประชาสัมพันธ์</a>
+                     <a class="dropdown-item" href="<?=site_url("main")?>">ข่าวกิจกรรม</a>
                      <!-- <a class="dropdown-item" href="sidebar-full.html"></a>
                      <a class="dropdown-item" href="blog-single.html"></a>
                      <a class="dropdown-item" href="blog-grids.html"></a>
@@ -54,7 +55,7 @@
                   </div>
                </li>
                <li class="nav-item dropdown">
-                  <a class="nav-link" href="<?=base_url('person')?>">บุคลากร <span class="sr-only">(current)</span></a>
+                  <a class="nav-link dropdown-toggle" href="<?=site_url("main")?>" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ติดต่อเรา</a>
                </li>
             </ul>
             <form class="form-inline">

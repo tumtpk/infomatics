@@ -1,75 +1,9 @@
-<section id="blog" class="section">
-   <div class="container">
-      <h2 class="section-title wow fadeInUpQuick"> ข่าวประชาสัมพันธ์
-      </h2>
-      
-      <div class="row">
-         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
-               <div class="blog-item-img">
-                  <a href="#">
-                  <img src="<?= base_url(); ?>assets/img/blog/home-items/img1.jpg" alt="">
-                  </a>
-               </div>
-               <div class="blog-item-text">
-                  <h3 class="small-title"><a href="#">Amazing Blog Post One</a></h3>
-                  <p>
-                     Lorem ipsum dolor sit amet, adipisicing elit. Eos rerum dolorum, est voluptatem modi accusantium perspiciatis ...
-                  </p>
-                  <div class="blog-one-footer">
-                     <a href="#">Read More</a>
-                     <a href="#"><i class="icon-heart"></i> 59 Likes</a>
-                     <a href="#"><i class="icon-bubbles"></i> 120 Comments</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.6s">
-               <div class="blog-item-img">
-                  <a href="#">
-                  <img src="<?= base_url(); ?>assets/img/blog/home-items/img2.jpg" alt="">
-                  </a>
-               </div>
-               <div class="blog-item-text">
-                  <h3 class="small-title"><a href="#">Amazing Blog Post One</a></h3>
-                  <p>
-                     Lorem ipsum dolor sit amet, adipisicing elit. Eos rerum dolorum, est voluptatem modi accusantium perspiciatis ...
-                  </p>
-                  <div class="blog-one-footer">
-                     <a href="#">Read More</a>
-                     <a href="#"><i class="icon-heart"></i> 59 Likes</a>
-                     <a href="#"><i class="icon-bubbles"></i> 120 Comments</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.9s">
-               <div class="blog-item-img">
-                  <a href="#">
-                  <img src="<?= base_url(); ?>assets/img/blog/home-items/img3.jpg" alt="">
-                  </a>
-               </div>
-               <div class="blog-item-text">
-                  <h3 class="small-title"><a href="#">Amazing Blog Post One</a></h3>
-                  <p>
-                     Lorem ipsum dolor sit amet, adipisicing elit. Eos rerum dolorum, est voluptatem modi accusantium perspiciatis ...
-                  </p>
-                  <div class="blog-one-footer">
-                     <a href="#">Read More</a>
-                     <a href="#"><i class="icon-heart"></i> 59 Likes</a>
-                     <a href="#"><i class="icon-bubbles"></i> 120 Comments</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-
 <section id="service-block-main" class="section">
    <div class="container">
+      <h1 class="section-title wow fadeIn animated" data-wow-delay=".2s">
+         WHY CHOOSE US?
+      </h1>
+      <p class="section-subcontent">At vero eos et accusamus et iusto odio dignissimos ducimus qui <br> blanditiis praesentium</p>
       <div class="row">
          <div class="col-sm-6 col-md-3">
             <div class="service-item wow fadeInUpQuick animated" data-wow-delay=".5s">
