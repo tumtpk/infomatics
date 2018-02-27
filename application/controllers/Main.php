@@ -29,6 +29,7 @@ class Main extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('head');
         $this->load->view('menu');
+        $this->load->view('title');
     }
     public function print_foot(){
         $this->load->view('footer');
@@ -52,18 +53,18 @@ class Main extends CI_Controller {
 	}
 	public function philosophy(){
 	    $this->print_head();
-	    //$this->load->view('content');
+	    $this->load->view('main/philosophy');
 	    $this->print_foot();
 	}
-	public function Identities(){
+	public function identities(){
 	    $this->print_head();
-	    //$this->load->view('content');
+	    $this->load->view('main/identities');
 	    $this->print_foot();
 	}
 	
 	public function undergraduate(){
 	    $this->print_head();
-	    //$this->load->view('content');
+	    $this->load->view('main/undergraduate');
 	    $this->print_foot();
 	}
 	
