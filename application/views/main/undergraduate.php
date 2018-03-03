@@ -45,14 +45,16 @@
                         
             </div>
             <div class="col-md-4 service2-single-service wow fadeIn animated" data-wow-delay="0.7s" style="visibility: visible;-webkit-animation-delay: 0.7s; -moz-animation-delay: 0.7s; animation-delay: 0.7s;">
-            <i class="fa fa-tablet"></i>
-            <h2>วิศวกรรมซอฟต์แวร์</h2>
-            <p>
-            		ชื่อเต็ม :
-                <br/>ชื่อย่อ :
-                <br/>ชื่อเต็ม :
-                <br/>ชื่อย่อ :
-            </p>
+            	<a href="<?=base_url("/course/swe")?>">
+                    <i class="fa fa-tablet"></i>
+                    <h2>วิศวกรรมซอฟต์แวร์</h2>
+                    <p>
+                    		ชื่อเต็ม :วิทยาศาสตรบัณฑิต (วิศวกรรมซอฟต์แวร์)
+                        <br/>ชื่อย่อ : วท.บ. (วิศวกรรมซอฟต์แวร์)
+                        <br/>ชื่อเต็ม : Bachelor of Science (Software Engineering)
+                        <br/>ชื่อย่อ : B.Sc. (Software Engineering)
+                    </p>
+				</a>
             </div>
           
         </div>

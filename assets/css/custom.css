@@ -1,0 +1,10 @@
+.media .d-flex h6 {
+    font-family: "Playfair Display", serif;
+    font-size: 100px;
+    color: #2bc0a4;
+    line-height: 75px;
+}
+
+.media .media-body {
+    padding-left: 32px;
+}

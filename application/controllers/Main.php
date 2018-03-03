@@ -60,6 +60,7 @@ class Main extends CI_Controller {
 	}
 	
 	public function undergraduate(){
+	    $this->load->helper('url');
 	    $this->print_head();
 	    $this->load->view('main/undergraduate');
 	    $this->print_foot();
