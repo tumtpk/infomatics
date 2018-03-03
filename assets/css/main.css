@@ -70,7 +70,6 @@ h4 {
 p {
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
 }
 a {
   
@@ -1448,7 +1447,9 @@ cursor: pointer;
   position: relative;
 }
 #pricing {
-  background: url(../img/backgrounds/facts-bg.jpg);
+  background: url(../img/backgrounds/0001.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #pricing .section-title {
   color: #fff;

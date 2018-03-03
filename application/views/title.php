@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="page-header-area">
 				<div class="page-header-content">
-					<h2>Icons</h2>
+					<h2>สารสนเทศศาสตร์</h2>
 				</div>
 			</div>
 		</div>

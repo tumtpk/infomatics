@@ -4,7 +4,11 @@
          <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
          <li data-target="#carousel-slider" data-slide-to="1"></li>
          <li data-target="#carousel-slider" data-slide-to="2"></li>
+         <li data-target="#carousel-slider" data-slide-to="3"></li>
+         <li data-target="#carousel-slider" data-slide-to="4"></li>
+         <li data-target="#carousel-slider" data-slide-to="5"></li>
       </ol>
+      
       <div class="carousel-inner" role="listbox">
          <div class="carousel-item active">
             <img src="<?= base_url(); ?>assets/img/slider/B_01.png" alt="">

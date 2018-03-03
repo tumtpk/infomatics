@@ -1,6 +1,6 @@
 <section id="blog" class="section">
    <div class="container">
-      <h2 class="section-title wow fadeInUpQuick"> ข่าวประชาสัมพันธ์
+      <h2 class="section-title wow fadeInUpQuick"> ข่าวเด่น
       </h2>
       
       <div class="row">
@@ -8,18 +8,16 @@
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
                <div class="blog-item-img">
                   <a href="#">
-                  <img src="<?= base_url(); ?>assets/img/blog/home-items/img1.jpg" alt="">
+                  <img src="<?= base_url(); ?>assets/img/news/28336324_2049432225073290_3023163994766831383_o.jpg" alt="">
                   </a>
                </div>
                <div class="blog-item-text">
-                  <h3 class="small-title"><a href="#">Amazing Blog Post One</a></h3>
+                  <h3 class="small-title"><a href="#">WU Boot Camp (Design Thinking)</a></h3>
                   <p>
-                     Lorem ipsum dolor sit amet, adipisicing elit. Eos rerum dolorum, est voluptatem modi accusantium perspiciatis ...
+                     สำนักวิชาสารสนเทศศาสตร์ จัดกิจกรรม WU Boot Camp (Design Thinking) โดยมีนักศึกษาหลักสูตรเทคโนโลยีสารสนเทศ (IT) และ หลักสูตรเทคโนโลยีมัลติมีเดีย (MTA) ซึ่งอยู่ในส่วนหนึ่งของรายวิชา Entrepreneurship Education .... 
                   </p>
                   <div class="blog-one-footer">
-                     <a href="#">Read More</a>
-                     <a href="#"><i class="icon-heart"></i> 59 Likes</a>
-                     <a href="#"><i class="icon-bubbles"></i> 120 Comments</a>
+                     <a href="<?php echo site_url("news/detail/1")?>">Read More</a>
                   </div>
                </div>
             </div>
@@ -28,18 +26,16 @@
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.6s">
                <div class="blog-item-img">
                   <a href="#">
-                  <img src="<?= base_url(); ?>assets/img/blog/home-items/img2.jpg" alt="">
+                  <img src="<?= base_url(); ?>assets/img/news/image_0002.jpeg" alt="">
                   </a>
                </div>
                <div class="blog-item-text">
-                  <h3 class="small-title"><a href="#">Amazing Blog Post One</a></h3>
-                  <p>
-                     Lorem ipsum dolor sit amet, adipisicing elit. Eos rerum dolorum, est voluptatem modi accusantium perspiciatis ...
+                  <h3 class="small-title"><a href="#">นำเสนอเทคโนโลยี AR งานวิจัยด้านการท่องเที่ยว ต่อรองนายกรัฐมนตรี</a></h3>
+                  <p>                     
+                     เมื่อวันที่ 2 กุมภาพันธ์ 2561 รองศาสตราจารย์ ดร.พูลพงษ์ บุญพราหมณ์ คณบดีสำนักวิชาสารสนเทศศาสตร์ มหาวิทยาลัยวลัยลักษณ์ ในฐานะหัวหน้า... 
                   </p>
                   <div class="blog-one-footer">
-                     <a href="#">Read More</a>
-                     <a href="#"><i class="icon-heart"></i> 59 Likes</a>
-                     <a href="#"><i class="icon-bubbles"></i> 120 Comments</a>
+                     <a href="<?php echo site_url("news/detail/2")?>">Read More</a>
                   </div>
                </div>
             </div>
@@ -48,18 +44,16 @@
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.9s">
                <div class="blog-item-img">
                   <a href="#">
-                  <img src="<?= base_url(); ?>assets/img/blog/home-items/img3.jpg" alt="">
+                  <img src="<?= base_url(); ?>assets/img/news/image_0003.jpeg" alt="">
                   </a>
                </div>
                <div class="blog-item-text">
-                  <h3 class="small-title"><a href="#">Amazing Blog Post One</a></h3>
+                  <h3 class="small-title"><a href="#">Informatics runway @เซ็นทรัลนครศรีฯ</a></h3>
                   <p>
-                     Lorem ipsum dolor sit amet, adipisicing elit. Eos rerum dolorum, est voluptatem modi accusantium perspiciatis ...
+                     สำนักวิชาสารสนเทศศาสตร์ จัดกิจกรรมประชาสัมพันธ์สำนักวิชา เมื่อวันที่ 19-21 มกราคม 2561 ที่ห้อง Southern Gallery ชั้น 1 ศูนย์การค้าเซ็นทรัลพลาซ่า จังหวัดนครศรีธรรมราช นายวิรัตน์ รักษ์พันธ์ รองผู้ว่าราชการจังหวัดนครศรีธรรมราช  เป็นประธานในพิธี...
                   </p>
                   <div class="blog-one-footer">
-                     <a href="#">Read More</a>
-                     <a href="#"><i class="icon-heart"></i> 59 Likes</a>
-                     <a href="#"><i class="icon-bubbles"></i> 120 Comments</a>
+                     <a href="<?php echo site_url("news/detail/3")?>">Read More</a>
                   </div>
                </div>
             </div>
@@ -68,17 +62,22 @@
    </div>
 </section>
 
-<section id="service-block-main" class="section">
+
+
+
+<section id="pricing" class="section" >
+
    <div class="container">
       <div class="row">
          <div class="col-sm-6 col-md-3">
             <div class="service-item wow fadeInUpQuick animated" data-wow-delay=".5s">
                <div class="icon-wrapper">
-                  <i class="icon-layers pulse-shrink">
+                  <i class="fa fa-graduation-cap">
+                  
                   </i>
                </div>
                <h2>
-                  40+ Pages
+                  ผู้สนใจเข้าศึกษา
                </h2>
                <p>
                   Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.
@@ -92,7 +91,7 @@
                   </i>
                </div>
                <h2>
-                  Bootstrap4 and HTML5
+                  หลักสูตรที่เปิดสอน
                </h2>
                <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat Quidem!
@@ -106,7 +105,7 @@
                   </i>
                </div>
                <h2>
-                  Refreshing Design
+                  นักศึกษาปัจจุบัน
                </h2>
                <p>
                   Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.
@@ -116,11 +115,10 @@
          <div class="col-sm-6 col-md-3">
             <div class="service-item  wow fadeInUpQuick animated" data-wow-delay="1.4s">
                <div class="icon-wrapper">
-                  <i class="icon-cup pulse-shrink">
-                  </i>
+               		<i class="fa fa-users"></i>
                </div>
                <h2>
-                  Crafted Carefully
+                  ศิษย์เก่า
                </h2>
                <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat Quidem!
@@ -1030,7 +1028,3 @@
       </div>
    </div>
 </section>
-<a href="#" class="back-to-top">
-<i class="fa fa-angle-up">
-</i>
-</a>
