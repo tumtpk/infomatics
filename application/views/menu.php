@@ -23,7 +23,7 @@
                      <a class="dropdown-item" href="<?=site_url("main/history")?>">ความเป็นมา
 </a>
                      <a class="dropdown-item" href="<?=site_url("main/philosophy")?>">ปรัชญา/วิสัยทัศน์/พันธกิจ</a>
-                     <a class="dropdown-item" href="<?=site_url("main/Identities")?>">อัตลักษณ์นักศึกษา</a>
+                     <!--  <a class="dropdown-item" href="<?=site_url("main/Identities")?>">อัตลักษณ์นักศึกษา</a>  -->
                      <a class="dropdown-item" href="<?=site_url("person")?>">บุคลากร</a>
                   </div>
                </li>
@@ -32,7 +32,7 @@
                   <div class="dropdown-menu">
                      <a class="dropdown-item" href="<?=site_url("main/undergraduate")?>">หลักสูตรปริญญาตรี</a>
                      <a class="dropdown-item" href="<?=site_url("main/graduate")?>">หลักสูตรปริญญาโท-เอก</a>
-                     <a class="dropdown-item" href="<?=site_url("main")?>">ผู้สนใจศึกษาต่อ</a>
+                     <!-- <a class="dropdown-item" href="<?=site_url("main")?>">ผู้สนใจศึกษาต่อ</a>  -->
                   </div>
                </li>
                <li class="nav-item dropdown">

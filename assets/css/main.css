@@ -1441,7 +1441,15 @@ cursor: pointer;
   background: url(../img/backgrounds/0001.png);
   background-repeat: no-repeat;
   background-size: cover;
+  filter: opacity(0.6);
 }
+
+#pricing .container {
+	background: #d3d3d3;
+	color: #000000;
+	/*filter: opacity(0.7);*/
+}
+
 #pricing .section-title {
   color: #fff;
 }
