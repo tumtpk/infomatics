@@ -8,3 +8,17 @@
 .media .media-body {
     padding-left: 32px;
 }
+
+.divwidth{
+	width: 70%;
+}
+
+.div-width-head{
+	width: 35%;
+}
+
+@media (min-width: 280px) and (max-width: 504px) {
+	.div-width-head{
+		width: 65%;
+	}
+}

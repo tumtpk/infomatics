@@ -22,10 +22,12 @@ class Person extends CI_Controller {
 	public function index()
 	{
 		$this->load->helper('url');
+		$this->load->model('model');
+		$q["data"] = $this->model->getPerson();
 		$this->load->view('head');
 		$this->load->view('menu');
 		$this->load->view('person/header');
-		$this->load->view('person/content');
+		$this->load->view('person/content', $q);
 		$this->load->view('footer');
 		$this->load->view('foot');
 	}
