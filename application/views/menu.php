@@ -35,6 +35,7 @@
                      <!-- <a class="dropdown-item" href="<?=site_url("main")?>">ผู้สนใจศึกษาต่อ</a>  -->
                   </div>
                </li>
+<!--                
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">นักศึกษา</a>
                   <div class="dropdown-menu">
@@ -43,6 +44,7 @@
                      <a class="dropdown-item" href="<?=site_url("main/old_student")?>">ศิษย์เก่า</a>
                   </div>
                </li>
+ -->
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ข่าว</a>
                   <div class="dropdown-menu">

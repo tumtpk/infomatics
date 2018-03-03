@@ -9,9 +9,7 @@
                	</h3>
                	<p class="section-subcontent">
                		<i class="fa fa-quote-left"></i> 
-               		เน้นพัฒนาศักยภาพของนักศึกษาต่อเนื่อง<br/>
-               		มุ่งเป้าหมายที่ผลลัพธ์เชิงพฤติกรรมเมื่อจบแต่ละชั้นปี<br/>
-               		เน้นความสามารถในการสร้างซอฟต์แวร์ <i class="fa fa-quote-right"></i> 
+               		มุ่งเน้นผลิตนักเทคโนโลยีสารสนเทศที่มีคุณภาพ สามารถทำงานได้จริงในสาขาอาชีพเป้าหมายของหลักสูตร โดยมีความรู้ทั้งในด้านด้านเทคโนโลยีสารสนเทศและความรู้ด้านการจัดการ สามารถบูรณาการความรู้สู่การปฏิบัติจริง โดยเน้นการเรียนไปใน 2 แนวทางด้วยกัน คือ ด้านการพัฒนาโปรแกรม และด้านงานบริการและการจัดการเทคโนโลยีสารสนเทศ และมุ่งหวังให้บัณฑิตต้องเป็นผู้ที่มีจริยธรรมในการใช้เทคโนโลยีสารสนเทศอีกด้วย <i class="fa fa-quote-right"></i> 
                	</p>
 			</div>
 		</div>
@@ -167,7 +165,7 @@
                   </div>
                   <div class="testimonial-content">
                     <a href="#">
-                      	วิศกรรมซอฟต์แวร์ (Software Engineer)
+                    นักพัฒนาโปรแกรม (Application Developer)
                     </a>
                   </div>
                 </div>
@@ -179,7 +177,7 @@
                   </div>
                   <div class="testimonial-content">
                     <a href="#">
-                      	นักเขียนโปรแกรม (Programmer)
+                      	นักวิเคราะห์ธุรกิจไอที (IT Business Analyst)
                     </a>
                   </div>
                 </div>
@@ -191,7 +189,7 @@
                   </div>
                   <div class="testimonial-content">
                     <a href="#">
-                     	นักประกันคุณภาพซอฟต์แวร์ (Software Quality Assurance)
+                     	ผู้ดูแลฐานข้อมูล (Database Administrator)
                     </a>
                   </div>
                 </div>
@@ -203,7 +201,7 @@
                   </div>
                   <div class="testimonial-content">
                     <a href="#">
-                      	นักทดสอบซอฟต์แวร์ (Software Tester)
+                      	ผู้สนับสนุนงานทางด้านไอที (IT Operation Support)
                     </a>
                   </div>
                 </div>
@@ -215,7 +213,7 @@
                   </div>
                   <div class="testimonial-content">
                     <a href="#">
-                      	สถาปนิกซอฟต์แวร์ (Software Architect)
+                      	ผู้ดูแลระบบ/เครือข่ายคอมพิวเตอร์ (System/Network Administrator)
                     </a>
                   </div>
                 </div>
@@ -227,7 +225,7 @@
                   </div>
                   <div class="testimonial-content">
                     <a href="#">
-                      	นักวิเคราะห์และออกแบบระบบ (System Analyst Designer)
+                      	นักวิชาการคอมพิวเตอร์ (Computer Technical Officer)
                     </a>
                   </div>
                 </div>
@@ -239,19 +237,7 @@
                   </div>
                   <div class="testimonial-content">
                     <a href="#">
-                      	DevOps Engineer (software DEVeloper and information technology OPerationS)
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimonial-inner">
-                  <div class="testimonial-images" style="font-size: 40px; color: #154df4;">
-                    <i class="icon-users"></i>
-                  </div>
-                  <div class="testimonial-content">
-                    <a href="#">
-                      	ผู้ประกอบการด้านซอฟต์แวร์ (Software Entrepreneurship)
+                      	ผู้ประกอบการเทคโนโลยีสารสนเทศ (IT Entrepreneur)
                     </a>
                   </div>
                 </div>
