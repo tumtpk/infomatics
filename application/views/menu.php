@@ -8,8 +8,8 @@
             <!-- School of Informatics  -->
             
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation" style="padding: 30px 300px;">
+            <span class="navbar-toggler-icon">☰</span>
             </button>
          </div>
          <div class="collapse navbar-collapse" id="main-menu">
