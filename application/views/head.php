@@ -19,7 +19,7 @@
       <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/extras/normalize.css">
       <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/extras/settings.css">
       <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/colors/blue.css" media="screen" />
-
+	  <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>assets/css/custom.css" media="screen" />
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
