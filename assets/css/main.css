@@ -985,6 +985,7 @@ ul li > ul > li.active > a {
     display: block;
   }
 }
+
 /* SlickMenu responsive */
 /*@media screen and (max-width: 768px) {
   .navbar-toggler{
@@ -3247,6 +3248,7 @@ ul.contact-info2 i.fa {
 
 }
 
+
 @media (max-width: 767px) {
   .nav-inline .nav-item + .nav-item {
     margin-left: 0;
@@ -3505,6 +3507,12 @@ ul.contact-info2 i.fa {
 
 .images img {
   width: 100%;
+}
+/*----*/
+@media (min-width: 991px) and (max-width: 2100px) {
+.carousel-item > img  {
+      width: 100%;
+    }
 }
 /* Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
