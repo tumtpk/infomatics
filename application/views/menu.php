@@ -48,8 +48,8 @@
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ข่าว</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="<?=site_url("main")?>">ข่าวประชาสัมพันธ์</a>
-                     <a class="dropdown-item" href="<?=site_url("main")?>">ข่าวกิจกรรม</a>
+                     <a class="dropdown-item" href="<?=site_url("news/topic/1")?>">ข่าวประชาสัมพันธ์</a>
+                     <a class="dropdown-item" href="<?=site_url("news/topic/2")?>">ข่าวกิจกรรม</a>
                      <!-- <a class="dropdown-item" href="sidebar-full.html"></a>
                      <a class="dropdown-item" href="blog-single.html"></a>
                      <a class="dropdown-item" href="blog-grids.html"></a>

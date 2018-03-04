@@ -131,12 +131,13 @@
 	<div class="container section">
 		<div class="row">
 			<div class="col-md-12">
-				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s">Carousel With Image</h3>
+				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s">รูปประทับใจ</h3>
 			</div>
 			<div class="col-md-12 wow fadeIn" data-wow-delay="0.5s">
 				<div id="image-carousel" class="owl-carousel">
 					<div class="item">
-						<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/gallery/1.jpg" alt="">
+						<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/gallery/1.jpg" alt="informatics runway">
+						
 					</div>
 					<div class="item">
 						<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/gallery/2.jpg" alt="">

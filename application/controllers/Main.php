@@ -25,11 +25,11 @@ class Main extends CI_Controller {
         $this->load->view('menu');
         $this->load->view('slide');
     }
-    public function print_head(){
+    public function print_head($title="สารสนเทศศาสตร์"){
         $this->load->helper('url');
         $this->load->view('head');
         $this->load->view('menu');
-        $this->load->view('title');
+        $this->load->view('title',array("title_name"=>$title));
     }
     public function print_foot(){
         $this->load->view('footer');
@@ -44,36 +44,36 @@ class Main extends CI_Controller {
 		$this->load->view('foot');
 	}
 	public function history(){
-	    $this->print_head();
+	    $this->print_head("ประวัติความเป็นมา");
 	    $this->load->view('main/history');
 	    $this->print_foot();
 	}
 	public function philosophy(){
-	    $this->print_head();
+	    $this->print_head("ปรัชญา/วิสัยทัศน/พันธกิจ");
 	    $this->load->view('main/philosophy');
 	    $this->print_foot();
 	}
 	public function identities(){
-	    $this->print_head();
+	    $this->print_head("");
 	    $this->load->view('main/identities');
 	    $this->print_foot();
 	}
 	
 	public function undergraduate(){
 	    $this->load->helper('url');
-	    $this->print_head();
+	    $this->print_head("หลักสูตรปริญญาตรี");
 	    $this->load->view('main/undergraduate');
 	    $this->print_foot();
 	}
 	
 	public function graduate(){
-	    $this->print_head();
+	    $this->print_head("หลักสูตรปริญญาโท");
 	    //$this->load->view('content');
 	    $this->print_foot();
 	}
 	
 	public function new_student(){
-	    $this->print_head();
+	    $this->print_head("");
 	    //$this->load->view('content');
 	    $this->print_foot();
 	}
@@ -91,6 +91,11 @@ class Main extends CI_Controller {
 	public function register(){
 	    $this->print_head();
 	    //$this->load->view('content');
+	    $this->print_foot();
+	}
+	public function contact(){
+	    $this->print_head("ติดต่อเรา");
+	    $this->load->view('contact');
 	    $this->print_foot();
 	}
 	public function test(){

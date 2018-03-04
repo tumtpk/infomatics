@@ -19,16 +19,14 @@ class News extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
     public function print_head_slide(){
-        $this->load->helper('url');
         $this->load->view('head');
         $this->load->view('menu');
         $this->load->view('slide');
     }
-    public function print_head(){
-        $this->load->helper('url');
+    public function print_head($title="สารสนเทศศาสตร์"){
         $this->load->view('head');
         $this->load->view('menu');
-        $this->load->view('title');
+        $this->load->view('title',array("title_name"=>$title));
     }
     public function print_foot(){
         $this->load->view('footer');
@@ -37,17 +35,33 @@ class News extends CI_Controller {
     
 	public function index()
 	{
-		$this->load->helper('url');
 		$this->load->view('head');
 		$this->load->view('menu');
-		$this->load->view('person/header');
-		$this->load->view('person/content');
 		$this->load->view('footer');
 		$this->load->view('foot');
 	}
+	public function topic($id=0)
+	{
+	    if($id==1){
+	        $this->print_head("ข่าวประชาสัมพันธ์");
+	        $this->load->view('news/news_all_1');
+	    }else if($id==2){
+	        $this->print_head("ข่าวกิจกรรม");
+	        $this->load->view('news/news_all_2');
+	    }
+	    $this->print_foot();
+	}
 	public function detail($topic=0)
 	{
-	    
+	    $this->print_head();
+	    if($topic==1){
+	        $this->load->view('news/news_1');
+	    }else if($topic==2){
+	        $this->load->view('news/news_2');
+	    }else if($topic==3){
+	        $this->load->view('news/news_3');
+	    }
+	    $this->print_foot();
 	}
 	
 }
