@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = "http://localhost/informatics/webInfo/infomatics/";
+$config['base_url'] = "http://localhost/informatics/";
 //$config['base_url'] = "https://informatics.wu.ac.th/";
 
 /*

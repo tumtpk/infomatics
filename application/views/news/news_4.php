@@ -4,7 +4,7 @@
     			<div class="col-md-12">
                 <article class="blog-post-wrapper wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
                     <header class="author-info">
-                        <h2 class="blog-post-title">Oracle Academy และ สำนักวิชาสารสนเทศศาสตร์ จัดอบรมฟรีฟฟ</h2>
+                        <h2 class="blog-post-title">Oracle Academy และ สำนักวิชาสารสนเทศศาสตร์ จัดอบรมฟรี</h2>
         				</header>
         				<section class="featured-wrapper_de">
             				<a href="#">
