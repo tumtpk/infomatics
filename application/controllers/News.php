@@ -64,6 +64,8 @@ class News extends CI_Controller {
 	        $this->load->view('news/news_4');
 	    }else if($topic==5){
 	        $this->load->view('news/news_5');
+	    }else if($topic=="IT003"){
+	        $this->load->view('news/IT003');
 	    }
 	    $this->print_foot();
 	}
