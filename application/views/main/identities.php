@@ -1,17 +1,10 @@
 <section class="section service2-intro">
     <div class="container">
-    
-
-
-
-
-
- 
         <div class="row">
             <div class="col-md-4 service2-single-service wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
             		<i class="fa fa-align-left"></i>
-            		<h2>นิเทศศาสตร์</h2>
-            		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam fugit, labore, rerum excepturi doloribus tempore veritatis quasi vitae porro reprehenderit</p>
+            		<h2>ปรัชญา</h2>
+            		<p></p>
             </div>
             <div class="col-md-4 service2-single-service wow fadeIn animated" data-wow-delay="0.4s" style="visibility: visible;-webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
             		<i class="fa fa-code"></i>

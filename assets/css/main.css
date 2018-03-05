@@ -3522,9 +3522,13 @@ ul.contact-info2 i.fa {
 }
 /*----*/
 @media (min-width: 991px) and (max-width: 2100px) {
-.carousel-item > img  {
+	.carousel-item > img  {
       width: 100%;
     }
+    .carousel-item > iframe  {
+      width: 100%;
+    }
+    
 }
 /* Tablets */
 @media (min-width: 768px) and (max-width: 991px) {

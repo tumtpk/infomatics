@@ -1,9 +1,9 @@
 <section id="blog" class="section">
    <div class="container">
-      <h2 class="section-title wow fadeInUpQuick"> ข่าวเด่น
-      </h2>
-      
       <div class="row">
+      		<div class="col-md-12">
+				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s">ข่าวเด่น</h3>
+			</div>
          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
                <div class="blog-item-img">
@@ -61,9 +61,6 @@
       </div>
    </div>
 </section>
-
-
-
 
 <section id="pricing" class="section" >
    <div class="container" >
@@ -137,7 +134,6 @@
 				<div id="image-carousel" class="owl-carousel">
 					<div class="item">
 						<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/gallery/1.jpg" alt="informatics runway">
-						
 					</div>
 					<div class="item">
 						<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/gallery/2.jpg" alt="">
@@ -197,4 +193,99 @@
 </section>
 
 
+<div class="container section">
+<div class="row">
 
+<div class="col-md-12">
+<h3 class="small-title mb-3 wow fadeInUp animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">Carousel With Content</h3>
+</div>
+
+<div class="col-md-12 wow fadeIn animated" data-wow-delay="0.5s" style="visibility: visible;-webkit-animation-delay: 0.5s; -moz-animation-delay: 0.5s; animation-delay: 0.5s;">
+<div id="testimonial">
+<div id="testimonial-item" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+<div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2400px; left: 0px; display: block; transform: translate3d(-480px, 0px, 0px);"><div class="owl-item" style="width: 240px;"><div class="item">
+<div class="testimonial-inner">
+<div class="testimonial-images">
+<img class="img-circle" src="assets/img/testimonial/img1.jpg" alt="">
+</div>
+<div class="testimonial-content">
+<p>
+Quisque mollis lacus augue, a hendrerit leo tristique vitae. Mauris non ipsum molestie sagittis elit ac vulputate odio.
+</p>
+</div>
+<div class="testimonial-footer">
+<i class="fa fa-quote-left"></i>
+Steve Austin <a href="#"> envato.com </a>
+</div>
+</div>
+</div></div><div class="owl-item" style="width: 240px;"><div class="item">
+<div class="testimonial-inner">
+<div class="testimonial-images">
+<img class="img-circle" src="assets/img/testimonial/img2.jpg" alt="">
+</div>
+<div class="testimonial-content">
+<p>
+Quisque mollis lacus augue, a hendrerit leo tristique vitae. Mauris non ipsum molestie sagittis elit ac vulputate odio.
+</p>
+</div>
+<div class="testimonial-footer">
+<i class="fa fa-quote-left"></i>
+Chelsey Siltanen<a href="#"> Microsoft</a>
+</div>
+</div>
+</div></div><div class="owl-item" style="width: 240px;"><div class="item">
+<div class="testimonial-inner">
+<div class="testimonial-images">
+<img class="img-circle" src="assets/img/testimonial/img3.jpg" alt="">
+</div>
+<div class="testimonial-content">
+<p>
+Quisque mollis lacus augue, a hendrerit leo tristique vitae. Mauris non ipsum molestie sagittis elit ac vulputate odio.
+</p>
+</div>
+<div class="testimonial-footer">
+<i class="fa fa-quote-left"></i>
+Pamela Fox<a href="#"> Khan Academy</a>
+</div>
+</div>
+</div></div><div class="owl-item" style="width: 240px;"><div class="item">
+<div class="testimonial-inner">
+<div class="testimonial-images">
+<img class="img-circle" src="assets/img/testimonial/img4.jpg" alt="">
+</div>
+<div class="testimonial-content">
+<p>
+Quisque mollis lacus augue, a hendrerit leo tristique vitae. Mauris non ipsum molestie sagittis elit ac vulputate odio.
+</p>
+</div>
+<div class="testimonial-footer">
+<i class="fa fa-quote-left"></i>
+janna Hagan<a href="#"> Google</a>
+</div>
+</div>
+</div></div><div class="owl-item" style="width: 240px;"><div class="item">
+<div class="testimonial-inner">
+<div class="testimonial-images">
+<img class="img-circle" src="assets/img/testimonial/img5.jpg" alt="">
+</div>
+<div class="testimonial-content">
+<p>
+Quisque mollis lacus augue, a hendrerit leo tristique vitae. Mauris non ipsum molestie sagittis elit ac vulputate odio.
+</p>
+</div>
+<div class="testimonial-footer">
+<i class="fa fa-quote-left"></i>
+Paul Tweedy<a href="#"> BBC</a>
+</div>
+</div>
+</div></div></div></div>
+
+
+
+
+<div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div></div></div></div>
+</div>
+</div>
+
+</div>
+</div>

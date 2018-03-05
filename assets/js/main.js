@@ -133,6 +133,15 @@ $("#image-carousel").owlCarousel({
  
 });
 
+//Image Carousel
+$("#image-carousel_2").owlCarousel({
+  autoPlay: 3000, //Set AutoPlay to 3 seconds
+  items : 4,
+  itemsDesktop : [1170,3],
+  itemsDesktopSmall : [1170,3]
+ 
+});
+
 // Slider Carousel
 $("#carousel-image-slider").owlCarousel({
   navigation : false, // Show next and prev buttons

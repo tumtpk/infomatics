@@ -65,10 +65,15 @@ class Main extends CI_Controller {
 	    $this->load->view('main/undergraduate');
 	    $this->print_foot();
 	}
+	public function ungrad_works(){
+	    $this->print_head("ผลงานนักศึกษา");
+	    //$this->load->view('main/graduate');
+	    $this->print_foot();
+	}
 	
 	public function graduate(){
 	    $this->print_head("หลักสูตรปริญญาโท");
-	    //$this->load->view('content');
+	    $this->load->view('main/graduate');
 	    $this->print_foot();
 	}
 	
