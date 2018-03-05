@@ -1,7 +1,6 @@
 <section id="blog" class="section">
    <div class="container">
-      <h2 class="section-title wow fadeInUpQuick"> ข่าวเด่น
-      </h2>
+    
           <!--  row1 -->
       <div class="row">
          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -46,7 +45,7 @@
                <div class="blog-item-text">
                   <h3 class="small-title"> <a href="<?php echo site_url("news/detail/5")?>">โครงการอาจารย์ปรึกษาพบนักศึกษา IT ชั้นปีที่ 1</a></h3>
                   <p>
-                       เมื่อวันศุกร์ที่ 23 กุมภาพันธ์ 2561 เวลา 12.00 น.-16.00 น. ที่ผ่านมา ทางหลักสูตรเทคโนโลยีสารสนเทศได้จัดกิจกรรมโครงการอาจารย์ปรึกษาพบนักศึกษา IT ชั้นปีที่ 1 นำโดย อ.ณิชนันทน์ กิตติพัฒนบวร เข้าพบนักศึกษาชั้นปีที่ 1 ซึ่งในการนี้ได้มีการแลกเปลี่ยนประสบการณ์ “ชาว IT เรียนและเล่นอย่างไรให้สมดุลและมีประสิทธิภาพ” กิจกรรมเตรียมความพร้อมในการเรียนและการสอบให้แก่นักศึกษา กิจกรรมเต็มไปด้วยความอบอุ่น เป็นกันเองระหว่างอาจารย์และนักศึกษา พร้อมทั้งมีการมอบรางวัลผลการเรียนดีเด่น รางวัลพัฒนาการเรียนดีเด่น รางวัลคนดี IT ของเรา มอบของขวัญให้แก่นักศึกษาเพื่อเป็นขวัญกำลังใจ และร่วมรับประทานอาหารร่วมกัน   </p>
+                       เมื่อวันศุกร์ที่ 23 กุมภาพันธ์ 2561 เวลา 12.00 น.-16.00 น. ที่ผ่านมา ทางหลักสูตรเทคโนโลยีสารสนเทศ ...  </p>
                   <div class="blog-one-footer">
                     <a href="<?php echo site_url("news/detail/5")?>">Read More</a>
                   </div>
@@ -57,7 +56,7 @@
           <!--  row2 -->
        <div class="row">
          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.10s">
                <div class="blog-item-img">
                   <a href="#">
                   <img src="<?= base_url(); ?>assets/img/news/28336324_2049432225073290_3023163994766831383_o.jpg" alt="">
