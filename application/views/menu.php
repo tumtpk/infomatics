@@ -30,8 +30,11 @@
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ปริญญาตรี</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="<?=site_url("main/undergraduate")?>">หลักสูตรปริญญาตรี</a>
-                     <a class="dropdown-item" href="<?=site_url("main/graduate")?>">ผลงานนักศึกษา</a>
+                     <a class="dropdown-item" href="<?=site_url("course/dim")?>">การจัดการสารสนเทศดิจิทัล</a>
+                     <a class="dropdown-item" href="<?=site_url("course/com")?>">นิเทศศาสตร์</a>
+                     <a class="dropdown-item" href="<?=site_url("course/mta")?>">เทคโนโลยีมัลติมีเดียและแอนิเมชัน</a>
+                     <a class="dropdown-item" href="<?=site_url("course/it")?>">เทคโนโลยีสารสนเทศ</a>
+                     <a class="dropdown-item" href="<?=site_url("course/swe")?>">วิศวกรรมซอฟต์แวร์</a>
                      <!-- <a class="dropdown-item" href="<?=site_url("main")?>">ผู้สนใจศึกษาต่อ</a>  -->
                   </div>
                </li>
@@ -39,8 +42,8 @@
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ปริญญาโท-เอก</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="<?=site_url("main/graduate")?>">หลักสูตรปริญญาโท-เอก</a>
-                     <a class="dropdown-item" href="<?=site_url("main/graduate")?>">ผลงานนักศึกษา</a>
+                     <a class="dropdown-item" href="<?=site_url("course/mit")?>">เทคโนโลยีสารสนเทศ</a>
+                     <!--  <a class="dropdown-item" href="<?=site_url("main/graduate")?>">ผลงานนักศึกษา</a>  -->
                      <!-- <a class="dropdown-item" href="<?=site_url("main")?>">ผู้สนใจศึกษาต่อ</a>  -->
                   </div>
                </li>
