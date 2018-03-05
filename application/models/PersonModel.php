@@ -6,7 +6,7 @@
         public function getPerson(){
             $data = array(
                 array(
-                    "name" => "นิเทศศาสตร์์",
+                    "name" => "นิเทศศาสตร์",
                     "person" => array(
                         0 => array('name' => 'อาจารย์ธนภร เจริญธัญสกุล', 'phone' => '2265 , 2206-7', 'email' => 'ctanapor@wu.ac.th', 'rank' => 'หัวหน้าสาขา', 'pic' => 'ctanapor'),
                         1 => array('name' => 'อาจารย์ ดร.ฟารีดา เจะเอาะ', 'phone' => '2295 , 2206', 'email' => 'jfareeda@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'jfareeda'),

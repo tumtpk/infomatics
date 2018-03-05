@@ -28,6 +28,28 @@
 }
 
 #team .team-item figure img {
-    width: 101px !important;
-    height: 131px !important;
+    width: 146px !important;
+    height: 189px !important;
+}
+
+.section {
+    padding: 30px 0 !important;
+    padding-top: 30px !important;
+    padding-right: 0px !important;
+    padding-bottom: 30px !important;
+    padding-left: 0px !important;
+}
+
+.page-header-content h2 {
+    color: #ddd;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.page-header-section {
+    background: #5998cf;
+}
+
+.featured-box .featured-content p {
+    font-size: 15px !important;
 }

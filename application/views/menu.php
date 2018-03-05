@@ -22,7 +22,7 @@
                   <div class="dropdown-menu">
                      <a class="dropdown-item" href="<?=site_url("main/history")?>">ความเป็นมา
 </a>
-                     <a class="dropdown-item" href="<?=site_url("main/philosophy")?>">ปรัชญา/วิสัยทัศน์/พันธกิจ</a>
+                     <a class="dropdown-item" href="<?=site_url("main/philosophy")?>">วิสัยทัศน์/พันธกิจ/เอกลักษณ์</a>
                      <!--  <a class="dropdown-item" href="<?=site_url("main/Identities")?>">อัตลักษณ์นักศึกษา</a>  -->
                      <a class="dropdown-item" href="<?=site_url("person")?>">บุคลากร</a>
                   </div>

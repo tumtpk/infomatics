@@ -77,7 +77,7 @@ $('#color-client-scroller').owlCarousel({
 //Owl Carousel
 $('#testimonial-item').owlCarousel({
     autoPlay: 5000,
-    items:3,
+    items:4,
     itemsTablet:3,
     margin:90,
     stagePadding:90,

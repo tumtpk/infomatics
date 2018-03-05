@@ -49,7 +49,7 @@ class Main extends CI_Controller {
 	    $this->print_foot();
 	}
 	public function philosophy(){
-	    $this->print_head("ปรัชญา/วิสัยทัศน/พันธกิจ");
+	    $this->print_head("วิสัยทัศน/พันธกิจ/เอกลักษณ์");
 	    $this->load->view('main/philosophy');
 	    $this->print_foot();
 	}
@@ -103,6 +103,17 @@ class Main extends CI_Controller {
 	    $this->load->view('contact');
 	    $this->print_foot();
 	}
+	public function vdo(){
+	    $this->print_head("VDO");
+	    $this->load->view('main/vdo');
+	    $this->print_foot();
+	}
+	public function picture(){
+	    $this->print_head("รูปภาพประทับใจ");
+	    $this->load->view('contact');
+	    $this->print_foot();
+	}
+	
 	public function test(){
 	    $this->load->view('main/index');
 	}
