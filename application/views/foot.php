@@ -12,5 +12,11 @@
 <script src="<?= base_url(); ?>assets/js/jquery.appear.js"></script>
 <script src="<?= base_url(); ?>assets/js/jquery.vide.js"></script>
 <script src="<?= base_url(); ?>assets/js/main.js"></script>
+
+<script>
+	function showPerson(id){
+		$("#"+id).fadeToggle();
+	}
+</script>
 </body>
 </html>

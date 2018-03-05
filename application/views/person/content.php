@@ -35,16 +35,17 @@
 	            </div>
           </div>
       	</div>
-      	<?php foreach ($data as $val){ ?>
+      	<?php foreach ($data as $key => $val){  ?>
       	</br>
           	<div class="row">
           		<div class="col-md-12">
-          			<a href="#"><h3><?=$val['name']?></h3></a>
+          			<a href="javascript:;" onclick="showPerson('<?=$key?>')" autofocus><h3><?=$val['name']?></h3></a>
           		</div>
           	</div>
       	</br>
       	<?php $persons = $val['person'];  
             $count = 0;
+            echo "<div id='$key' style='display:none'>";
             foreach ($persons as $person){ $count++;?>
             	<?php if($count == 1){ ?>
             	<div class="row">
@@ -73,6 +74,7 @@
                 echo "</div>";
             }
             ?>
+            </div>
       	<?php } ?>
       	
       	
