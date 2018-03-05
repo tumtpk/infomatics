@@ -22,3 +22,12 @@
 		width: 65%;
 	}
 }
+
+#team .info p {
+	text-transform: none !important;
+}
+
+#team .team-item figure img {
+    width: 101px !important;
+    height: 131px !important;
+}
