@@ -1,4 +1,4 @@
-<section class="classic-blog-section section">
+﻿<section class="classic-blog-section section">
     <div class="container">
     		<div class="row">
     			<div class="col-md-12">
