@@ -77,7 +77,7 @@ $('#color-client-scroller').owlCarousel({
 //Owl Carousel
 $('#testimonial-item').owlCarousel({
     autoPlay: 5000,
-    items:3,
+    items:4,
     itemsTablet:3,
     margin:90,
     stagePadding:90,
@@ -126,6 +126,15 @@ $('#single-testimonial-item').owlCarousel({
 
 // Image Carousel
 $("#image-carousel").owlCarousel({
+  autoPlay: 3000, //Set AutoPlay to 3 seconds
+  items : 4,
+  itemsDesktop : [1170,3],
+  itemsDesktopSmall : [1170,3]
+ 
+});
+
+//Image Carousel
+$("#image-carousel_2").owlCarousel({
   autoPlay: 3000, //Set AutoPlay to 3 seconds
   items : 4,
   itemsDesktop : [1170,3],

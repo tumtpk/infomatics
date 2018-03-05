@@ -11,12 +11,21 @@
       
       <div class="carousel-inner" role="listbox">
          <div class="carousel-item active">
-            <img src="<?= base_url(); ?>assets/img/slider/B_01.png" alt="">
+            <img src="<?= base_url(); ?>assets/img/slider/B_02.png" alt="">
             <div class="carousel-caption">
             </div>
          </div>
+         <!--  
          <div class="carousel-item">
-            <img src="<?= base_url(); ?>assets/img/slider/B_02.png" alt="">
+         	<iframe src="https://www.youtube.com/embed/mnt_eCA81vM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="carousel-caption">
+              
+            </div>
+         </div>
+          -->
+         
+         <div class="carousel-item">
+         	<img src="<?= base_url(); ?>assets/img/slider/B_01.png" alt="">
             <div class="carousel-caption">
               
             </div>

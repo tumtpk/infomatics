@@ -1,9 +1,20 @@
 <section id="blog" class="section">
    <div class="container">
-      <h2 class="section-title wow fadeInUpQuick"> ข่าวเด่น
-      </h2>
-      
       <div class="row">
+      		<div class="col-md-12">
+				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s">แนะนำสำนักวิชา</h3>
+			</div>
+         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.9s">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/VHU_vGi1DaE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+         </div>
+         &nbsp;
+         ​<br/>
+         <div class="row">
+      		<div class="col-md-12">
+				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s">ข่าวเด่น</h3>
+			</div>
          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
                <div class="blog-item-img">
@@ -59,9 +70,9 @@
             </div>
          </div>
       </div>
+      </div>
    </div>
 </section>
-
 
 
 
@@ -137,7 +148,6 @@
 				<div id="image-carousel" class="owl-carousel">
 					<div class="item">
 						<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/gallery/1.jpg" alt="informatics runway">
-						
 					</div>
 					<div class="item">
 						<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/gallery/2.jpg" alt="">
@@ -196,5 +206,77 @@
 	</div>
 </section>
 
+<section id="blog" class="section">
+   <div class="container">
+         <div class="row">
+      		<div class="col-md-12">
+				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s"> VDO เด่น </h3>
+			</div>
+		</div>
+		<div class="row">
+         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/MNkOjUj-pX4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+         </div>
+         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/L-wySHicOoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+      <div class="blog-one-footer">
+                     <a href="<?php echo site_url("main/vdo")?>">Read More</a>
+                  </div>
+      </div>
+   </div>
+</section>
 
 
+
+<!-- 
+
+ 
+<section class="shortcode-carousel-area">
+    <div class="container section">
+        <div class="row">
+
+            <div class="col-md-12">
+                <h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s">Carousel With Content</h3>
+            </div>
+
+            <div class="col-md-12 wow fadeIn" data-wow-delay="0.5s">
+                <div id="testimonial">
+                    <div id="testimonial-item" class="owl-carousel">
+                        <div class="item">
+                            <div class="testimonial-inner">
+                            		<iframe width="560" height="315" src="https://www.youtube.com/embed/TL1k2jjliTI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-inner">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-inner">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-inner">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-inner">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+-->

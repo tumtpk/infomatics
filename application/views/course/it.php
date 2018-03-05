@@ -26,7 +26,7 @@
                 <!-- Service-Block-1 Item Starts -->
                 <div class="service-item wow fadeInUpQuick animated animated" data-wow-delay=".5s" style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;">
                   <br/>
-                  <h2 class="text-left">Application Deverlopment</h2>
+                  <h2 class="text-left">Application Development</h2>
                   <p class="text-left">
                     มุ่งเน้นให้ผู้เรียนสามารถพัฒนาระบบสารสนเทศ (โปรแกรม) เพื่อใช้ในการแก้ปัญหาของหน่วยงานต่างๆ การเรียนการสอนมุ่งเน้นในรายวิชา การวิเคราะห์และออกแบบระบบ การเรีนยโปรแกรมบนเว็บ การเขียนโปรแกรมบนอุปกรณ์เคลื่อนที่   ผู้ประกอบการเทคโนโลยีสารสนเทศ ฯลฯ 
                   </p>
@@ -205,4 +205,19 @@
 			</div>
 		</div>
 	</div>
+	<br>
+	  <div class="row text-center" style="background-color: #fff;">
+			<div class="col 12">
+            	<h3 class="section-title wow fadeInUpQuick animated" style="visibility: visible;">
+					Link ของหลักสูตร 
+               	</h3>
+             </div>
+        </div>
+        <div class="row text-center" style="background-color: #fff;">
+            <div class="col-md-3 "></div>
+            <div class="col-md-3 "><a href="https://it.wu.ac.th/"><i class="fa fa fa-link fa-2x"> </i> website </a></div>
+            <div class="col-md-3 "><a href="https://www.facebook.com/it.walailak/"><i class="fa fa-facebook-square fa-2x"> </i> facebook </a></div>
+            <div class="col-md-3 "></div>
+		</div>
+        <br/>
 </section>

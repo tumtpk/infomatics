@@ -48,7 +48,7 @@ class Course extends CI_Controller {
 	    $this->load->helper('url');
 	    $this->load->view('head');
 	    $this->load->view('menu');
-	    $this->load->view('course/header', array("course"=>"นิเทศศาสตร์์"));
+	    $this->load->view('course/header', array("course"=>"นิเทศศาสตร์"));
 	    $this->load->view('course/com');
 	    $this->load->view('footer');
 	    $this->load->view('foot');
