@@ -64,8 +64,98 @@ class News extends CI_Controller {
 	        $this->load->view('news/news_4');
 	    }else if($topic==5){
 	        $this->load->view('news/news_5');
+	    }else if($topic==6){
+	        $this->load->view('news/news_6');
 	    }else if($topic=="IT003"){
 	        $this->load->view('news/IT003');
+	    }else if($topic=="IT005"){
+	        $this->load->view('news/IT005');
+	    }else if($topic=="IT006"){
+	        $this->load->view('news/IT006');
+	    }else if($topic=="IT007"){
+	        $this->load->view('news/IT007');
+	    }else if($topic=="IT008"){
+	        $this->load->view('news/IT008');
+	    }else if($topic=="IT009"){
+	        $this->load->view('news/IT009');
+	    }else if($topic=="IT012"){
+	        $this->load->view('news/IT012');
+	    }else if($topic=="IT014"){
+	        $this->load->view('news/IT014');
+	    }else if($topic=="IT015"){
+	        $this->load->view('news/IT015');
+	    }else if($topic=="MC001"){
+	        $this->load->view('news/MC001');
+	    }else if($topic=="MC002"){
+	        $this->load->view('news/MC002');
+	    }else if($topic=="MC003"){
+	        $this->load->view('news/MC003');
+	    }else if($topic=="MC010"){
+	        $this->load->view('news/MC010');
+	    }else if($topic=="MC013"){
+	        $this->load->view('news/MC013');
+	    }else if($topic=="MC014"){
+	        $this->load->view('news/MC014');
+	    }else if($topic=="MC015"){
+	        $this->load->view('news/MC015');
+	    }else if($topic=="MC016"){
+	        $this->load->view('news/MC016');
+	    }else if($topic=="MC017"){
+	        $this->load->view('news/MC017');
+	    }else if($topic=="MC018"){
+	        $this->load->view('news/MC018');
+	    }else if($topic=="MC025"){
+	        $this->load->view('news/MC025');
+	    }else if($topic=="MC029"){
+	        $this->load->view('news/MC029');
+	    }else if($topic=="MC030"){
+	        $this->load->view('news/MC030');
+	       }else if($topic=="MTA002"){
+	        $this->load->view('news/MTA002');
+	    }else if($topic=="MTA003"){
+	        $this->load->view('news/MTA003');
+	    }else if($topic=="MTA005"){
+	        $this->load->view('news/MTA005');
+	    }else if($topic=="MTA006"){
+	        $this->load->view('news/MTA006');
+	    }else if($topic=="MTA008"){
+	        $this->load->view('news/MTA008');
+	    }else if($topic=="MTA009"){
+	        $this->load->view('news/MTA009');
+	    }else if($topic=="MTA010"){
+	        $this->load->view('news/MTA010');
+	    }else if($topic=="MTA011"){
+	        $this->load->view('news/MTA011');
+	    }else if($topic=="MTA014"){
+	        $this->load->view('news/MTA014');
+	    }else if($topic=="DIM001"){
+	        $this->load->view('news/DIM001');
+	    }else if($topic=="DIM002"){
+	        $this->load->view('news/DIM002');
+	    }else if($topic=="DIM003"){
+	        $this->load->view('news/DIM003');
+	    }else if($topic=="DIM004"){
+	        $this->load->view('news/DIM004');
+	    }else if($topic=="DIM005"){
+	        $this->load->view('news/DIM005');
+	    }else if($topic=="DIM007"){
+	        $this->load->view('news/DIM007');
+	    }else if($topic=="SWE001"){
+	        $this->load->view('news/SWE001');
+	    }else if($topic=="SWE002"){
+	        $this->load->view('news/SWE002');
+	    }else if($topic=="SWE003"){
+	        $this->load->view('news/SWE003');
+	    }else if($topic=="SWE004"){
+	        $this->load->view('news/SWE004');
+	    }else if($topic=="SWE005"){
+	        $this->load->view('news/SWE005');
+	    }else if($topic=="SWE006"){
+	        $this->load->view('news/SWE006');
+	    }else if($topic=="SWE007"){
+	        $this->load->view('news/SWE007');
+	    }else if($topic=="SWE008"){
+	        $this->load->view('news/SWE008');
 	    }
 	    $this->print_foot();
 	}

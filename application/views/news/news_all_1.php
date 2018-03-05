@@ -1,121 +1,241 @@
-﻿<section class="classic-blog-section section">
-    <div class="container">
-    		<div class="row">
-    			<div class="col-md-12">
-    				<article class="blog-post-wrapper wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
-                    <header class="author-info">
-                        <h2 class="blog-post-title"><a href="#">รับสมัครนักศึกษาใหม่ประจำปีการศึกษา 2561</a></h2>
-        				</header>
-        				<section class="featured-wrapper">
-            				<a href="#">
-            					<img src="<?php echo base_url()?>assets/img/news/wu_resize_2018-03-02_5616.jpg" alt="">
-            				</a>
-        				</section>
-        
-        				<section class="blog-post-content">
-                        <div class="blog-post">
-                        <p>
-                        </p>
-                        </div>
-                    </section>
-                    <div class="blog-post-footer clearfix">
-                          <a href="#" class="pull-left btn btn-common btn-xs">Read more</a>
-                     </div>
-                </article>
-                <article class="blog-post-wrapper wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
-                    <header class="author-info">
-                        <h2 class="blog-post-title"><a href="#">วลัยลักษณ์เดย์ WU LAND OF GLORY</a></h2>
-        				</header>
-        				<section class="featured-wrapper">
-            				<a href="#">
-            					<img src="<?php echo base_url()?>assets/img/news/wu_resize_2018-01-19_4124.jpg" alt="">
-            				</a>
-        				</section>
-        
-        				<section class="blog-post-content">
-                        <div class="blog-post">
-                        <p>
-                        </p>
-                        </div>
-                    </section>
-                    <div class="blog-post-footer clearfix">
-                          <a href="#" class="pull-left btn btn-common btn-xs">Read more</a>
-                     </div>
-                </article>
-                <article class="blog-post-wrapper wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
-                    <header class="author-info">
-                        <h2 class="blog-post-title"><a href="#">เปิดรับสมัครนักศึกษาใหม่ ระดับปริญญาโทและระดับปริญญาเอก หลักสูตรการจัดการเทคโนโลยีสารสนเทศ (MIT)</a></h2>
-        				</header>
-        				<section class="featured-wrapper">
-            				<a href="#">
-            					<img src="<?php echo base_url()?>assets/img/news/mit_news.jpg" alt="">
-            				</a>
-        				</section>
-        
-        				<section class="blog-post-content">
-                        <div class="blog-post">
-                        <p>ระดับปริญญาโท หลักสูตรวิทยาศาสตรามหาบัณฑิต สาขาการจัดการเทคโนโลยีสารสนเทศ
-ระดับปริญญาเอก หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาการจัดการเทคโนโลยีสารสนเทศ
+﻿<section id="blog" class="section">
+   <div class="container">
+    
+          <!--  row1 -->
+      <div class="row">
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
+               <div class="blog-item-img">
+      <a href="<?php echo site_url("news/detail/MTA003")?>">
 
-เรียนวันเสาร์-อาทิตย์ เลือกเรียนได้ทั้งศูนย์นครศรีฯ และศูนย์กทม.ฯ
-สนใจสอบถามเพิ่มเติมได้ที่ โทร. 075-672204 / 075-672212 / 075-672400
-สมัครออนไลน์ที่ http://entry.wu.ac.th/graduate/home.asp</p>
-                        </div>
-                    </section>
-                    <div class="blog-post-footer clearfix">
-                          <a href="#" class="pull-left btn btn-common btn-xs">Read more</a>
-                     </div>
-                </article>
-                <article class="blog-post-wrapper wow fadeIn animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
-                
-                <header class="author-info">
-                    <h2 class="blog-post-title"><a href="#">สารสนเทศศาสตร์ ม.วลัยลักษณ์เปิดตัว VR ท่องเที่ยวนครศรีฯ แห่งแรกของภาคใต้</a></h2>
-    				</header>
-    				<section class="featured-wrapper">
-        				<a href="#">
-        					<img src="<?php echo base_url()?>assets/img/news/image_0002.jpeg" alt="">
-        				</a>
-    				</section>
-    
-    				<section class="blog-post-content">
-                    <div class="blog-post">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint beatae incidunt unde aliquid dolorum qui voluptatibus ipsa voluptatem aliquam quisquam quis a enim quas reprehenderit dicta, expedita. Vel repellat sunt qui, repudiandae ratione perferendis, dicta provident, laboriosam dolorum repellendus ad!</p>
-                    </div>
-                </section>
-                <div class="blog-post-footer clearfix">
-                      <a href="#" class="pull-left btn btn-common btn-xs">Read more</a>
-                 </div>
-                </article>
-    
-    
-    <div class="blog-pagination clearfix wow fadeIn" data-wow-delay="0.3s" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
-    <nav aria-label="..." class="">
-    <ul class="pagination">
-     <li class="page-item disabled">
-    <a class="page-link" href="#" tabindex="-1" aria-label="Previous">
-    <i class="fa fa-angle-left"></i>
-    Prev
-    <span class="sr-only">Previous</span>
+            <img src="<?php echo base_url()?>assets/img/news/PR/MTA003/a4.jpg" alt=""> 
+  </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title"><a href="<?php echo site_url("news/detail/MTA003")?>">ผลงาน Final Project ในรายวิชา MMA-222 : Digital Art
+</a></h3>
+                  <p>
+                     ผลงาน Final Project ในรายวิชา MMA-222 : Digital Art
+  <div class="blog-one-footer">
+                   <a href="<?php echo site_url("news/detail/MTA003")?>">
+Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.6s">
+               <div class="blog-item-img">
+                <a href="<?php echo site_url("news/detail/DIM005")?>">
+ <img src="<?php echo base_url()?>assets/img/news/PR/DIM005/a4.jpg" alt=""> 
     </a>
-    </li>
-    <li class="page-item active">
-    <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">4</a></li>
-    <li class="page-item">
-    <a class="page-link" href="#" aria-label="Next">
-    Next
-    <i class="fa fa-angle-right"></i>
-    <span class="sr-only">Next</span>
+               </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title"><a href="<?php echo site_url("news/detail/DIM005")?>">ตัวแทนอาจารย์และนักศึกษาหลักสูตรการจัดการสารสนเทศดิจิทัล เข้ารับโล่ประกาศเกียรติคุณสถาบันการศึกษา</a></h3>
+                  <p>       ตัวแทนอาจารย์และนักศึกษาหลักสูตรการจัดการสารสนเทศดิจิทัล เข้ารับโล่ประกาศเกียรติคุณสถาบันการศึกษาแกนนำที่มีศักยภาพการเรียนการสอนด้านสื่อดิจิทัล...          
+                    </p>
+                  <div class="blog-one-footer">
+                   <a href="<?php echo site_url("news/detail/DIM005")?>">
+	Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.6s">
+               <div class="blog-item-img">
+            <a href="<?php echo site_url("news/detail/5")?>">
+            <img src="<?php echo base_url()?>assets/img/news/oracle_news.jpg" alt="">   </a>
     </a>
-    </li>
-    </ul>
-    </nav>
-    </div>
-    </div>
-    
-    </div>
-    </div>
+               </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title"><a href="<?php echo site_url("news/detail/5")?>">Oracle Academy และ สำนักวิชาสารสนเทศศาสตร์ จัดอบรมฟรี
+</a></h3>
+                  <p>      Oracle Academy บริษัทออราเคิลคอร์ปอเรชั่น(ประเทศไทย) จำกัด กับทางหลักสูตรเทคโนโลยีสารสนเทศ สํานักวิชาสารสนเทศศาสตร์ มหาวิทยาลัยวลัยลักษณ์ และทีมงาน Thaitechnet ...      
+                    </p>
+                  <div class="blog-one-footer">
+                  <a href="<?php echo site_url("news/detail/5")?>">
+	Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+          <!--  row2 -->
+       <div class="row">
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.10s">
+               <div class="blog-item-img">
+                 <a href="<?php echo site_url("news/detail/MC030")?>">
+ <img src="<?php echo base_url()?>assets/img/news/PR/MC030/a2.jpg" alt=""> 
+	     </a>
+               </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title">  <a href="<?php echo site_url("news/detail/MC030")?>">หลักสูตรนิเทศศาสตร์ขอแสดงความยินดี กับบัณฑิตนิเทศศาสตร์ทุกท่านที่เข้ารับพระราชทานปริญญาบัตร
+</a></h3>
+                  <p>
+              หลักสูตรนิเทศศาสตร์ขอแสดงความยินดี กับบัณฑิตนิเทศศาสตร์ทุกท่านที่เข้ารับพระราชทานปริญญาบัตรในวันนี้
+ .... 
+                  </p>
+                  <div class="blog-one-footer">
+                      <a href="<?php echo site_url("news/detail/MC030")?>">
+Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.6s">
+               <div class="blog-item-img">
+                  <a href="<?php echo site_url("news/detail/MTA014")?>">
+
+                <img src="<?php echo base_url()?>assets/img/news/PR/MTA014/a1.jpg" alt=""> 
+  </a>
+               </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title">   <a href="<?php echo site_url("news/detail/MTA014")?>">เตรียมพบกับ "AR LungSook"
+</a></h3>
+                  <p>                     
+               เตรียมพบกับ "AR LungSook"
+  </p>
+                  <div class="blog-one-footer">
+                <a href="<?php echo site_url("news/detail/MTA014")?>">
+Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.9s">
+               <div class="blog-item-img">
+                 <a href="<?php echo site_url("news/detail/SWE004")?>">
+
+                 <img src="<?php echo base_url()?>assets/img/news/PR/SWE004/a7.jpg" alt=""> 
+</a>
+               </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title"><a href="<?php echo site_url("news/detail/3")?>">นักศึกษาวิศวกรรมซอฟต์แวร์ชั้นปีที่ 3 เข้ารับรางวัล 1 แสนบาท จากท่านอธิการบดี
+</a></h3>
+                  <p>
+              นักศึกษาวิศวกรรมซอฟต์แวร์ชั้นปีที่ 3 เข้ารับรางวัล 1 แสนบาท จากท่านอธิการบดี และนำเสนอผลงาน handhelp แอพพลิเคชันสำหรับการแปลภาษามือ ในงาน wu demo day 31 ตุลาคม 2560
+...
+                  </p>
+                  <div class="blog-one-footer">
+                 <a href="<?php echo site_url("news/detail/3")?>">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
+               <div class="blog-item-img">
+          <a href="<?php echo site_url("news/detail/MC018")?>">
+
+            <img src="<?php echo base_url()?>assets/img/news/PR/MC018/a2.jpg" alt=""> 
+
+   </a>
+               </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title"><a href="<?php echo site_url("news/detail/MC018")?>">
+นักศึกษาหลักสูตรนิเทศศาสตร์ สำนักวิชาสารสนเทศศาสตร์ ได้เข้าร่วมประกวดโครงการของ KFC Community Hero 2017 
+
+</a></h3>
+                  <p>
+       นักศึกษาหลักสูตรนิเทศศาสตร์ สำนักวิชาสารสนเทศศาสตร์ ได้เข้าร่วมประกวดโครงการของ KFC Community Hero 2017 .... 
+                  </p>
+                  <div class="blog-one-footer">
+              <a href="<?php echo site_url("news/detail/MC018")?>">
+
+Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.6s">
+               <div class="blog-item-img">
+                 <a href="<?php echo site_url("news/detail/SWE001")?>">
+
+       <img src="<?php echo base_url()?>assets/img/news/PR/SWE001/a7.jpg" alt=""> 
+
+                  </a>
+               </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title"><a href="<?php echo site_url("news/detail/SWE001")?>">ค่ายพัฒนาโปรแกรมด้วย Continuous Integration Process
+</a></h3>
+                  <p>                     
+                    ค่ายพัฒนาโปรแกรมด้วย Continuous Integration Process... 
+                  </p>
+                  <div class="blog-one-footer">
+                   <a href="<?php echo site_url("news/detail/SWE001")?>">
+Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.9s">
+               <div class="blog-item-img">
+           <a href="<?php echo site_url("news/detail/SWE002")?>">
+
+                <img src="<?php echo base_url()?>assets/img/news/PR/SWE002/a3.jpg" alt=""> 
+
+                  </a>
+               </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title"><a href="<?php echo site_url("news/detail/SWE002")?>">ค่าย SWE ไหวป่ะ
+</a></h3>
+                  <p>
+                    ค่าย SWE ไหวป่ะ...
+                  </p>
+                  <div class="blog-one-footer">
+                <a href="<?php echo site_url("news/detail/SWE002")?>">
+Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--  row3 -->
+       <div class="row">
+         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
+               <div class="blog-item-img">
+                    <a href="<?php echo site_url("news/detail/IT005")?>">
+                 <img src="<?php echo base_url()?>assets/img/news/PR/IT005/a7.jpg" alt=""> 
+                  </a>
+               </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title">  <a href="<?php echo site_url("news/detail/IT005")?>">กิจกรรมกีฬา ITM Network Game 2017</a></h3>
+                  <p>
+                  หลักสูตรเทคโนโลยีสารสนเทศ และหลักสูตรวิศวกรรมซอฟต์แวร์ สำนักวิชาสารสนเทศศาสตร์ มหาวิทยาลัยวลัยลักษณ์ ได้จัดกิจกรรมการแข่งขันกีฬา วิชาการ ร่วมมหาวิทยาลัย ITM Network Games 2017 ขึ้น  .... 
+                  </p>
+                  <div class="blog-one-footer">
+                     <a href="<?php echo site_url("news/detail/IT005")?>">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <diiv class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.9s">
+               <div class="blog-item-img">
+            <a href="<?php echo site_url("news/detail/MC029")?>">
+<img src="<?php echo base_url()?>assets/img/news/PR/MC029/a1.jpg" alt=""> 
+     </div>
+               <div class="blog-item-text">
+                  <h3 class="small-title"> <a href="<?php echo site_url("news/detail/5")?>">นักศึกษาหลักสูตรนิเทศศาสตร์ ชั้นปีที่ 3 ผ่านเข้ารอบชิงชนะเลิศเป็น 2 ทีม ใน 10 ทีมสุดท้าย
+</a></h3>
+                  <p>
+                      นางสาววิจิตรา วัชนะประพันธ์ (แถวนั่งที่ 2 จากซ้าย) และนางสาววนารัตน์ ตรีเภรี (แถวนั่งที่ 3 จากซ้าย) นักศึกษาหลักสูตรนิเทศศาสตร์ ชั้นปีที่ 3 ผ่านเข้ารอบชิงชนะเลิศเป็น 2 ทีม ใน 10 ทีมสุดท้าย จากการประกวดภาพยนตร์โฆษณาเพื่อสังคมถ้วยพระราชทานสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี True Young Producer Award 2017 ได้รับทุนผลิตผลงานภาพยนตร์โฆษณา ทีมละ 15,000 บาท
+ ...  </p>
+                  <div class="blog-one-footer">
+                    <a href="<?php echo site_url("news/detail/5")?>">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+          
+      </div>
+         </div>
 </section>
