@@ -11,7 +11,7 @@
                         0 => array('name' => 'อาจารย์ธนภร เจริญธัญสกุล', 'phone' => '2265 , 2206-7', 'email' => 'ctanapor@wu.ac.th', 'rank' => 'หัวหน้าสาขา', 'pic' => 'ctanapor'),
                         1 => array('name' => 'อาจารย์ ดร.ฟารีดา เจะเอาะ', 'phone' => '2295 , 2206', 'email' => 'jfareeda@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'jfareeda'),
                         2 => array('name' => 'อาจารย์ ดร.อัตนันท์ เตโชพิศาลวงศ์', 'phone' => '3811 2657 , 3803 2206', 'email' => 'attanan.ta@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'attanan'),
-                        3 => array('name' => 'อาจารย์บุศรินทร์ นันทะเขต', 'phone' => '2253 , 2206-7', 'email' => 'budsarin.na@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'budsarin.na'),
+                        3 => array('name' => 'อาจารย์บุศรินทร์ นันทะเขต', 'phone' => '2253 , 2206-7', 'email' => 'budsarin.na@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'budsarin'),
                         4 => array('name' => 'อาจารย์รจเรศ ณรงค์ราช', 'phone' => '2293 , 2206-7', 'email' => 'nrotjare@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'nrotjare'),
                         5 => array('name' => 'อาจารย์วรรณรัตน์ นาที', 'phone' => '2256 , 2206', 'email' => 'nwannara@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'nwannara'),
                     )
@@ -29,16 +29,15 @@
                         6 => array('name' => 'อาจารย์จักริน วีแก้ว', 'phone' => '2214 , 2206-7', 'email' => 'wjakkari@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'wjakkari'),
                         7 => array('name' => 'อาจารย์เจริญพร บัวแย้ม', 'phone' => '2279 , 2206-7', 'email' => 'charoenporn.bo@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'jaranporn'),
                         8 => array('name' => 'อาจารย์สุพพัต รุ่งเรืองศิลป์', 'phone' => '2416 , 2206-7', 'email' => 'suppat.ru@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'suppat'),
-                        9 => array('name' => 'อาจารย์ธีรัช สายชู', 'phone' => '', 'email' => 'theerat.sa@wu.ac.th', 'rank' => 'อาจารย์์', 'pic' => 'theerat'),
+                        9 => array('name' => 'อาจารย์ธีรัช สายชู', 'phone' => '2268 , 2206-7', 'email' => 'theerat.sa@wu.ac.th', 'rank' => 'อาจารย์์', 'pic' => 'theerat'),
                     )
                 ),
                 
                 array(
                     "name" => "เทคโนโลยีมัลติมีเดียและแอนิเมชัน",
                     "person" => array(
-                        0 => array('name' => 'อาจารย์ ดร.ศศิธร รัตนรุ่งโรจน์', 'phone' => '2284 , 2206-7', 'email' => 'rsasitho@wu.ac.th', 'rank' => 'หัวหน้าสาขา', 'pic' => 'rsasitho'),
+                        0 => array('name' => 'อาจารย์ ดร.ศศิธร รัตนรุ่งโรจน์', 'phone' => '2284 , 2206-7', 'email' => 'rsasitho@wu.ac.th', 'rank' => 'หัวหน้าสาขา', 'pic' => 'rsasitho_2'),
                         1 => array('name' => 'อาจารย์ ดร.กาญจน์นัฐฐา ไชยศรียา', 'phone' => '2294 , 2206-7', 'email' => 'csomjit@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'csomjit'),
-                        2 => array('name' => 'อาจารย์ ดร.สุภาภรณ์ ใจรังษี', 'phone' => '', 'email' => 'supaporn.ch@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => ''),
                         3 => array('name' => 'อาจารย์ปฏิบัติ ปรียาวงศากุล', 'phone' => '2274-2547 , 2206', 'email' => 'patibut.pr@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'patibut'),
                         4 => array('name' => 'อาจารย์พรพล ธรรมรงค์รัตน์', 'phone' => '2282 , 2206-7', 'email' => 'pornpon.th@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'pornpon'),
                         5 => array('name' => 'อาจารย์วิทยา หอทรัพย์', 'phone' => '2252 , 2206-7', 'email' => 'witthaya.ho@wu.ac.th', 'rank' => 'อาจารย์', 'pic' => 'witthaya'),
@@ -98,6 +97,8 @@
                         1 => array('name' => 'นางสาวฤดียา พัฒนแก้ว', 'phone' => '2206 , 2207', 'email' => 'prudiya@wu.ac.th', 'rank' => 'เจ้าหน้าที่บริหารงานทั่วไป', 'pic' => 'prudiya'),
                         2 => array('name' => 'นางสาวศรินนา จำปากลาย', 'phone' => '2204 , 2212', 'email' => 'jjarinna@wu.ac.th', 'rank' => 'เจ้าหน้าที่บริหารงานทั่วไป', 'pic' => 'jjarinna'),
                         3 => array('name' => 'นางออนอุไร แก้วอุดม', 'phone' => '2451 , 2206-7', 'email' => 'bonourai@wu.ac.th', 'rank' => 'เจ้าหน้าที่บริหารงานทั่วไป', 'pic' => 'bonourai'),
+                        4 => array('name' => 'นางสาวอัมพลิกา นุ่นสังข์', 'phone' => '2204 , 2240', 'email' => 'aumpalika.nu@wu.ac.th', 'rank' => 'เจ้าหน้าที่บริหารงานทั่วไป', 'pic' => 'aumpalika'),
+                        
                     )
                 ),
                 

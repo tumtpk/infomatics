@@ -42,7 +42,7 @@
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ปริญญาโท-เอก</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="<?=site_url("course/mit")?>">เทคโนโลยีสารสนเทศ</a>
+                     <a class="dropdown-item" href="<?=site_url("course/mit")?>">การจัดการเทคโนโลยีสารสนเทศ</a>
                      <!--  <a class="dropdown-item" href="<?=site_url("main/graduate")?>">ผลงานนักศึกษา</a>  -->
                      <!-- <a class="dropdown-item" href="<?=site_url("main")?>">ผู้สนใจศึกษาต่อ</a>  -->
                   </div>
