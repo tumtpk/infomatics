@@ -83,8 +83,8 @@
         </div>
         <div class="row text-center" style="background-color: #fff;">
             <div class="col-md-3 "></div>
-            <div class="col-md-3 "><a href=""><i class="fa fa fa-link fa-2x"> </i> website </a></div>
-            <div class="col-md-3 "><a href=""><i class="fa fa-facebook-square fa-2x"> </i> facebook </a></div>
+            <div class="col-md-3 "><a href="https://www.youtube.com/channel/UC9spskNz2LRrVhLY6q1IJQQ"><i class="fa fa-youtube fa-2x"> </i> Youtube </a></div>
+            <div class="col-md-3 "><a href="https://www.facebook.com/MTA.Walailak/"><i class="fa fa-facebook-square fa-2x"> </i> facebook </a></div>
             <div class="col-md-3 "></div>
 		</div>
         <br/>

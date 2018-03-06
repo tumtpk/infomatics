@@ -261,14 +261,19 @@
             </div>
           </div>
         </div>
-        
-              
-        
-        <p>
-        	<h5>เอกสารที่เกี่ยวข้อง</h5>
-        	ดาวน์โหลดแผ่นพับ: <a href="<?=base_url("assets/file/swe/swe.rar")?>">Link</a><br/>  
-      	   	Facebook Fanpage: <a href="https://www.facebook.com/clubim.wu/" target="_blank">Link</a><br>  	
-      	</p>
+        <div class="row text-center" style="background-color: #fff;">
+			<div class="col 12">
+            	<h3 class="section-title wow fadeInUpQuick animated" style="visibility: visible;">
+					Link ของหลักสูตร 
+               	</h3>
+             </div>
+        </div>
+        <div class="row text-center" style="background-color: #fff;">
+            <div class="col-md-4 "></div>
+            <div class="col-md-4 "><a href="https://www.facebook.com/clubim.wu/"><i class="fa fa-facebook-square fa-2x"> </i> facebook </a></div>
+            <div class="col-md-4 "></div>
+		</div>
+        <br/>
       </div><!-- Container Ends -->
       
     </section>

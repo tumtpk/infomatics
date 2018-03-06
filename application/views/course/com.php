@@ -80,10 +80,9 @@
              </div>
         </div>
         <div class="row text-center" style="background-color: #fff;">
-            <div class="col-md-3 "></div>
-            <div class="col-md-3 "><a href=""><i class="fa fa fa-link fa-2x"> </i> website </a></div>
-            <div class="col-md-3 "><a href=""><i class="fa fa-facebook-square fa-2x"> </i> facebook </a></div>
-            <div class="col-md-3 "></div>
+            <div class="col-md-4 "></div>
+            <div class="col-md-4 "><a href="https://m.facebook.com/comm.arts.wu/"><i class="fa fa-facebook-square fa-2x"> </i> facebook </a></div>
+            <div class="col-md-4 "></div>
 		</div>
         <br/>
         

@@ -33,9 +33,16 @@
                <div class="blog-item-text"><h3 class="small-title">ผลงานนักศึกษาหลักสูตร MTA</h3></div>
             </div>
          </div>
+         
          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
                <iframe width="100%" height="315" src="https://www.youtube.com/embed/mnt_eCA81vM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               <div class="blog-item-text"><h3 class="small-title">ผลงานนักศึกษาหลักสูตร MTA</h3></div>
+            </div>
+         </div>
+         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
+               <iframe width="100%" height="315" src="https://www.youtube.com/embed/UaOERM42jKY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                <div class="blog-item-text"><h3 class="small-title">ผลงานนักศึกษาหลักสูตร MTA</h3></div>
             </div>
          </div>

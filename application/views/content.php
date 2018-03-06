@@ -138,6 +138,44 @@
    </div>
 </section>
 
+<section id="blog" class="section">
+   <div class="container">
+         <div class="row">
+      		<div class="col-md-12">
+				<h3><i class="fa fa-quote-left" style="color: #8ec2e3;"></i>
+				<span style="color: #007bff;">สารสนเทศศาสตร์ อาชีพสำหรับศตวรรษที่ 21</span><i class="fa fa-quote-right" style="color: #8ec2e3;"></i></h3>
+			</div>
+		</div>
+		<div class="row">
+         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">            
+            		<div class="row">
+         		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+         		<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s"> 10 เหตุผลที่ต้องเรียนสารสนเทศศาสตร์ </h3>
+                    <p>
+                        1. หลักสูตรมีความทันสมัยตอบสนองในศตวรรษที่ 21<br/>
+                        2. เครื่องมือที่ใช้ในการเรียน มีมาตรฐานทัดเทียมมหาวิทยาลัยชั้นนำของประเทศ<br/>
+                        3. เรียนรู้จากการปฏิบัติด้วยอุปกรณ์แบบเดียวกับสถานประกอบการในปัจจุบัน จบไปทำงานได้เลย<br/>
+                        4. สามารถบูรณาการระหว่างหลักสูตรเพื่อให้ได้ความหลากหลายในทักษะการทำงาน<br/>
+                        5. มีความเป็นสากล ด้วยความร่วมมือกับมหาวิทยาลัยต่างประเทศ รวมถึงสหกิจศึกษาต่างประเทศ<br/>
+                        6. คุ้มค่าด้วยโอกาสที่จะได้เรียนรู้จากเครื่องมือที่ทันสมัย ระดับโลก<br/>
+                        7. ดูแลอย่างใกล้ชิด มีระบบอาจารย์ที่ปรึกษา ให้การดูแลตลอดระยะเวลาเรียน<br/>
+                        8. นักศึกษาได้งานก่อนเรียนจบ<br/>
+                        9. มีความร่วมมือกับสถานประกอบการที่หลากหลายในการสอนนักศึกษา<br/>
+                        10. เรียนจบไปสามารถเป็นผู้ประกอบการเองได้ (Start Up)
+                    </p>
+                 </div>
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                 	<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/about/DSC_4193.jpg" alt="informatics runway">
+                 </div>
+                 </div>
+            </div>
+         </div>
+      </div>
+      
+   </div>
+</section>
+
 <section class="shortcode-carousel-area">
 	<div class="container section">
 		<div class="row">
