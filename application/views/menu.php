@@ -4,7 +4,7 @@
       <div class="container">
          <div class="navbar-header">
             <a class="navbar-brand" href="<?=site_url("main")?>">
-            <img height="80" width="250" src="<?= base_url(); ?>assets/img/logo/LOGO_INFO.png" alt="">
+            <img height="50px"  src="<?= base_url(); ?>assets/img/logo/LOGO_INFO.png" alt="">
             <!-- School of Informatics  -->
             
             </a>

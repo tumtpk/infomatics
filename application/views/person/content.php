@@ -6,13 +6,13 @@
 	          <!-- Team Item Starts -->
 	        	<div class="team-item wow fadeInUpQuick animated div-width-head" data-wow-delay="1s" style="visibility: visible;-webkit-animation-delay: 1s;-moz-animation-delay: 1s;animation-delay: 1s;">
 	            <figure class="team-profile">
-	              <img src="<?=base_url()?>assets/img/team/4011010312.jpg" alt="">
+	              <a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=4011010312" target="_blank"><img src="<?=base_url()?>assets/img/team/4011010312.jpg" alt=""></a>
 	            </figure>
 	          </div>
 	          <div class="info">
 	              <p>
-	               	<a href="#">คณบดี</a><br/>
-	               	 รศ.ดร.พูลพงษ์ บุญพราหมณ์<br/>
+	               	<a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=4011010312" target="_blank">คณบดี<br/>
+	               	 รศ.ดร.พูลพงษ์ บุญพราหมณ์<br/></a>
 	               	<i class="fa fa-phone"></i> เบอร์ติดต่อ 2266 , 2206</br>
 	               	<i class="fa fa-envelope-o"></i> bpoonpon@wu.ac.th
 	              </p>
@@ -22,14 +22,14 @@
 	          <!-- Team Item Starts -->
 	        	<div class="team-item wow fadeInUpQuick animated div-width-head" data-wow-delay="1s" style="visibility: visible;-webkit-animation-delay: 1s;-moz-animation-delay: 1s;animation-delay: 1s;">
 	            <figure class="team-profile">
-	              <img src="<?=base_url()?>assets/img/team/5500000048.jpg" alt="">
+	              <a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=5500000048" target="_blank"><img src="<?=base_url()?>assets/img/team/5500000048.jpg" alt=""></a>
 	            </figure>
 	          </div>
 	          <div class="info">
 	              <p>
-	              	<a href="#">รองคณบดี</a></br>
-	               	 อาจารย์ ดร.อัตนันท์ เตโชพิศาลวงศ์<br/>
-	               	<i class="fa fa-phone"></i> 3811 2657 , 3803 2206</br>
+	              	<a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=5500000048" target="_blank">รองคณบดี<br/>
+	               	 อาจารย์ ดร.อัตนันท์ เตโชพิศาลวงศ์<br/></a>
+	               	<i class="fa fa-phone"></i> 3811 2657 , 3803 2206<br/>
 	               	<i class="fa fa-envelope-o"></i> attanan.ta@wu.ac.th
 	              </p>
 	            </div>
@@ -54,13 +54,13 @@
     	          <!-- Team Item Starts -->
     	        	<div class="team-item wow fadeInUpQuick animated divwidth" data-wow-delay="1s" style="visibility: visible;-webkit-animation-delay: 1s;-moz-animation-delay: 1s;animation-delay: 1s;">
     	            <figure class="team-profile">
-    	              <img src="<?=base_url('assets/img/person/').$person['pic'].".jpg"?>" width="105px" height="131px" alt="">
+    	              <a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=<?=$person['personID'] ?>" target="_blank"><img src="<?=base_url('assets/img/person/').$person['pic'].".jpg"?>" width="105px" height="131px" alt=""></a>
     	            </figure>
     	          </div>
     	          <div class="info">
     	              <p>
-    	              	<a href="#"><?=$person['rank'] ?></a></br>
-	               	 	<?=$person['name'] ?><br/>
+    	              	<a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=<?=$person['personID'] ?>" target="_blank"><?=$person['rank'] ?><br/>
+	               	 	<?=$person['name'] ?><br/></a>
 	               		<i class="fa fa-phone"></i> <?=$person['phone'] ?></br>
     	                <i class="fa fa-envelope-o"></i> <?=$person['email'] ?>
     	              </p>

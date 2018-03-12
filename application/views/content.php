@@ -6,7 +6,7 @@
 			</div>
          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.9s">
-            <iframe width="100%" height="500" src="https://www.youtube.com/embed/VHU_vGi1DaE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/IrnANz4k0xE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
          </div>
          &nbsp;
@@ -166,7 +166,7 @@
                     </p>
                  </div>
                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                 	<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/about/DSC_4193.jpg" alt="informatics runway">
+                 	<img class="img-responsive img-thumbnail" src="<?= base_url(); ?>assets/img/about/DSC_4193.JPG" alt="informatics runway">
                  </div>
                  </div>
             </div>
@@ -252,14 +252,20 @@
 			</div>
 		</div>
 		<div class="row">
-         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		
+         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
-               <iframe width="100%" height="315" src="https://www.youtube.com/embed/MNkOjUj-pX4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               <iframe width="100%" height="215" src="https://www.youtube.com/embed/8XzM20n5GHM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
          </div>
-         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
-               <iframe width="100%" height="315" src="https://www.youtube.com/embed/L-wySHicOoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+               <iframe width="100%" height="215" src="https://www.youtube.com/embed/MNkOjUj-pX4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.3s">
+               <iframe width="100%" height="215" src="https://www.youtube.com/embed/L-wySHicOoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
          </div>
       </div>
