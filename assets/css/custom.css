@@ -53,3 +53,12 @@
 .featured-box .featured-content p {
     font-size: 15px !important;
 }
+
+#wu_logo{
+	background-color: #3f1b5b !important;
+    width: 100% !important;
+    height: 195px !important;
+}
+#main-menu ul > li > a{
+	padding: 20px 17px !important;
+}

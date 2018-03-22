@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Main extends CI_Controller {
+class Th extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -43,6 +43,11 @@ class Main extends CI_Controller {
 		$this->load->view('footer');
 		$this->load->view('foot');
 	}
+	public function msg_dean(){
+	    $this->print_head("สาส์นจากคณบดี");
+	    $this->load->view('main/msg_dean');
+	    $this->print_foot();
+	}
 	public function history(){
 	    $this->print_head("ประวัติความเป็นมา");
 	    $this->load->view('main/history');
@@ -78,17 +83,17 @@ class Main extends CI_Controller {
 	}
 	
 	public function new_student(){
-	    $this->print_head("");
+	    $this->print_head("ผู้สนใจศึกษาต่า");
 	    //$this->load->view('content');
 	    $this->print_foot();
 	}
 	public function student(){
-	    $this->print_head();
+	    $this->print_head("นักศึกษาปัจจุบัน");
 	    //$this->load->view('content');
 	    $this->print_foot();
 	}
 	public function old_student(){
-	    $this->print_head();
+	    $this->print_head("ศิษย์เก่า");
 	    //$this->load->view('content');
 	    $this->print_foot();
 	}
@@ -113,6 +118,23 @@ class Main extends CI_Controller {
 	    $this->load->view('contact');
 	    $this->print_foot();
 	}
+	
+	public function staff(){
+	    $this->load->model('PersonModel');
+	    $q["data"] = $this->PersonModel->getStaff();
+	    $this->print_head("บุคคลากรฝ่ายวิชาการ");
+	    $this->load->view('person/content', $q);
+	    $this->print_foot();
+	}
+	public function support(){
+	    $this->load->model('PersonModel');
+	    $q["data"] = $this->PersonModel->getSupport();
+	    $this->print_head("บุคคลากรฝ่ายสนับสนุน");
+	    $this->load->view('person/content', $q);
+	    $this->print_foot();
+	}
+	
+	//$this->load->view('person/content', $q);
 	
 	public function test(){
 	    $this->load->view('main/index');
