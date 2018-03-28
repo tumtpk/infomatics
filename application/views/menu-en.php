@@ -49,23 +49,23 @@
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program</a>
                   <div class="dropdown-menu">
-                  	<ul class="navbar-nav mr-auto w-50 justify-content-end">
+                  	<ul class="navbar-nav mr-auto w-100 justify-content">
                      	<li class="nav-item dropdown">
                      	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Undergraduate</a>
                      	<div class="dropdown-menu">
-                     		<a class="dropdown-item" href="<?=site_url("course/dim")?>">การจัดการสารสนเทศดิจิทัล</a>
-                     		<a class="dropdown-item" href="<?=site_url("course/com")?>">นิเทศศาสตร์</a>
-                             <a class="dropdown-item" href="<?=site_url("course/mta")?>">เทคโนโลยีมัลติมีเดียและแอนิเมชัน</a>
-                             <a class="dropdown-item" href="<?=site_url("course/it")?>">เทคโนโลยีสารสนเทศ</a>
-                             <a class="dropdown-item" href="<?=site_url("course/swe")?>">วิศวกรรมซอฟต์แวร์</a>
+                     		<a class="dropdown-item" href="<?=site_url("en/dim")?>">Digital Information Management</a>
+                     		<a class="dropdown-item" href="<?=site_url("en/com")?>">Communication Arts</a>
+                             <a class="dropdown-item" href="<?=site_url("en/mta")?>">Multimedia Technology and Animation</a>
+                             <a class="dropdown-item" href="<?=site_url("en/it")?>">Information Technology</a>
+                             <a class="dropdown-item" href="<?=site_url("en/swe")?>">Software Engineering</a>
                      	</div>
                      	</li>
                      </ul>
-                     <ul class="navbar-nav mr-auto w-50 justify-content-end">
+                     <ul class="navbar-nav mr-auto w-100 justify-content">
                      	<li class="nav-item dropdown">
                      	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Graduate</a>
                      	<div class="dropdown-menu">
-                     		<a class="dropdown-item" href="<?=site_url("course/mit")?>">การจัดการเทคโนโลยีสารสนเทศ</a>
+                     		<a class="dropdown-item" href="<?=site_url("en/mit")?>">Management of Information Technology</a>
                      	</div>
                      	</li>
                      </ul>
@@ -75,8 +75,8 @@
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personal</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="<?=site_url("en/new_student")?>">Staff</a>
-                     <a class="dropdown-item" href="<?=site_url("en/student")?>">Support</a>
+                     <a class="dropdown-item" href="<?=site_url("en/staff")?>">Staff</a>
+                     <a class="dropdown-item" href="<?=site_url("en/support")?>">Support</a>
                   </div>
                </li>
                

@@ -29,12 +29,12 @@ class En extends CI_Controller {
 	}
 	
 	public function msg_dean(){
-	    $this->print_head("Message from the Dean");
+	    $this->print_head("Massage from the Dean");
 	    $this->load->view('en/main/msg_dean');
 	    $this->print_foot();
 	}
 	public function history(){
-	    $this->print_head("History");
+	    $this->print_head("Background");
 	    $this->load->view('en/main/history');
 	    $this->print_foot();
 	}
@@ -105,17 +105,56 @@ class En extends CI_Controller {
 	}
 	
 	public function staff(){
+	    
+	    $this->load->model('PersonModel');
+	    $q["data"] = $this->PersonModel->getStaffEN();
 	    $this->print_head("Staff");
-	    $this->load->view('contact');
+	    $this->load->view('en/person/content', $q);
 	    $this->print_foot();
 	}
 	public function support(){
+	    
+	    $this->load->model('PersonModel');
+	    $q["data"] = $this->PersonModel->getSupportEN();
 	    $this->print_head("Support Staff");
-	    $this->load->view('contact');
+	    $this->load->view('en/person/content', $q);
 	    $this->print_foot();
 	}
 	
-	public function test(){
-	    $this->load->view('main/index');
+	public function swe()
+	{
+	    $this->print_head("Software Engineering");
+	    $this->load->view('en/course/swe');
+	    $this->print_foot();
+	}
+	public function it()
+	{
+	    $this->print_head("Information Technology");
+	    $this->load->view('en/course/it');
+	    $this->print_foot();
+	}
+	public function dim()
+	{
+	    $this->print_head("Digital Information Management");
+	    $this->load->view('en/course/dim');
+	    $this->print_foot();
+	}
+	public function mta()
+	{
+	    $this->print_head("Multimedia Technology and Animation");
+	    $this->load->view('en/course/mta');
+	    $this->print_foot();
+	}
+	public function com()
+	{
+	    $this->print_head("Communication Arts");
+	    $this->load->view('en/course/com');
+	    $this->print_foot();
+	}
+	public function mit()
+	{
+	    $this->print_head("การจัดการเทคโนโลยีสารสนเทศ");
+	    $this->load->view('en/course/mit');
+	    $this->print_foot();
 	}
 }

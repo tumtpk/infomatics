@@ -41,13 +41,11 @@
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">เกี่ยวกับสำนักวิชา</a>
                   <div class="dropdown-menu">
-                     <a class="dropdown-item" href="<?=site_url("th/msg_dean")?>">สาส์นจากคณบดี
+                     <a class="dropdown-item" href="<?=site_url("th/msg_dean")?>">สารจากคณบดี
 </a>
 					<a class="dropdown-item" href="<?=site_url("th/history")?>">ความเป็นมา
 </a>
                      <a class="dropdown-item" href="<?=site_url("th/philosophy")?>">วิสัยทัศน์/พันธกิจ/เอกลักษณ์</a>
-                     <!--  <a class="dropdown-item" href="<?=site_url("th/Identities")?>">อัตลักษณ์นักศึกษา</a>  -->
-                     <a class="dropdown-item" href="<?=site_url("person")?>">บุคลากร</a>
                   </div>
                </li>
                <li class="nav-item dropdown">
@@ -55,14 +53,14 @@
                   <div class="dropdown-menu">
                   	<ul class="navbar-nav mr-auto w-50 justify-content-end">
                      	<li class="nav-item dropdown">
-                     	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ปริญญาตรี</a>
-                     	<div class="dropdown-menu">
-                     		<a class="dropdown-item" href="<?=site_url("course/dim")?>">การจัดการสารสนเทศดิจิทัล</a>
-                     		<a class="dropdown-item" href="<?=site_url("course/com")?>">นิเทศศาสตร์</a>
-                             <a class="dropdown-item" href="<?=site_url("course/mta")?>">เทคโนโลยีมัลติมีเดียและแอนิเมชัน</a>
-                             <a class="dropdown-item" href="<?=site_url("course/it")?>">เทคโนโลยีสารสนเทศ</a>
-                             <a class="dropdown-item" href="<?=site_url("course/swe")?>">วิศวกรรมซอฟต์แวร์</a>
-                     	</div>
+                         	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ปริญญาตรี</a>
+                         	<div class="dropdown-menu">
+                         		<a class="dropdown-item" href="<?=site_url("th/dim")?>">การจัดการสารสนเทศดิจิทัล</a>
+                         		<a class="dropdown-item" href="<?=site_url("th/com")?>">นิเทศศาสตร์</a>
+                                 <a class="dropdown-item" href="<?=site_url("th/mta")?>">เทคโนโลยีมัลติมีเดียและแอนิเมชัน</a>
+                                 <a class="dropdown-item" href="<?=site_url("th/it")?>">เทคโนโลยีสารสนเทศ</a>
+                                 <a class="dropdown-item" href="<?=site_url("th/swe")?>">วิศวกรรมซอฟต์แวร์</a>
+                         	</div>
                      	</li>
                      </ul>
                      <ul class="navbar-nav mr-auto w-50 justify-content-end">

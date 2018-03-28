@@ -5,7 +5,7 @@
       	<div class="row text-center" style="background-color: #dfeff9;">
             <div class="col 12">
             	<h3 class="section-title wow fadeInUpQuick animated" style="visibility: visible;">
-                                                              ปรัชญา
+                                                              Philosophy
                	</h3>
                	<p class="section-subcontent">
                		<i class="fa fa-quote-left"></i> 

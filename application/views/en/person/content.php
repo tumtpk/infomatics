@@ -11,9 +11,9 @@
 	          </div>
 	          <div class="info">
 	              <p>
-	               	<a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=4011010312" target="_blank">คณบดี<br/>
-	               	 รศ.ดร.พูลพงษ์ บุญพราหมณ์<br/></a>
-	               	<i class="fa fa-phone"></i> เบอร์ติดต่อ 2266 , 2206</br>
+	               	<a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=4011010312" target="_blank">Dean<br/>
+	               	 Assoc.Prof.Dr. Poonpong Boonbrahm<br/></a>
+	               	<i class="fa fa-phone"></i> Tel: 2266 , 2206</br>
 	               	<i class="fa fa-envelope-o"></i> bpoonpon@wu.ac.th
 	              </p>
 	            </div>
@@ -27,9 +27,9 @@
 	          </div>
 	          <div class="info">
 	              <p>
-	              	<a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=5500000048" target="_blank">รองคณบดี<br/>
-	               	 อาจารย์ ดร.อัตนันท์ เตโชพิศาลวงศ์<br/></a>
-	               	<i class="fa fa-phone"></i> 3811 2657 , 3803 2206<br/>
+	              	<a href="http://expert.wu.ac.th/html/source/DESAboutPersonallist_.php?PERSONID=5500000048" target="_blank">Vice Dean<br/>
+	               	    Dr. Attanan Tachopisalwong<br/></a>
+	               	<i class="fa fa-phone"></i>Tel:3811 2657 , 3803 2206<br/>
 	               	<i class="fa fa-envelope-o"></i> attanan.ta@wu.ac.th
 	              </p>
 	            </div>

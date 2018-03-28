@@ -44,7 +44,7 @@ class Th extends CI_Controller {
 		$this->load->view('foot');
 	}
 	public function msg_dean(){
-	    $this->print_head("สาส์นจากคณบดี");
+	    $this->print_head("สารจากคณบดี");
 	    $this->load->view('main/msg_dean');
 	    $this->print_foot();
 	}
@@ -138,5 +138,41 @@ class Th extends CI_Controller {
 	
 	public function test(){
 	    $this->load->view('main/index');
+	}
+	public function swe()
+	{
+	    $this->print_head("วิศวกรรมซอฟต์แวร์");
+	    $this->load->view('course/swe');
+	    $this->print_foot();
+	}
+	public function it()
+	{
+	    $this->print_head("เทคโนโลยีสารสนเทศ");
+	    $this->load->view('course/it');
+	    $this->print_foot();
+	}
+	public function dim()
+	{
+	    $this->print_head("การจัดการสารสนเทศดิจิทัล");
+	    $this->load->view('course/dim');
+	    $this->print_foot();
+	}
+	public function mta()
+	{
+	    $this->print_head("เทคโนโลยีมัลติมีเดียและแอนิเมชัน");
+	    $this->load->view('course/mta');
+	    $this->print_foot();
+	}
+	public function com()
+	{
+	    $this->print_head("นิเทศศาสตร์");
+	    $this->load->view('course/com');
+	    $this->print_foot();
+	}
+	public function mit()
+	{
+	    $this->print_head("การจัดการเทคโนโลยีสารสนเทศ");
+	    $this->load->view('course/mit');
+	    $this->print_foot();
 	}
 }

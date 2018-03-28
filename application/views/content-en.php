@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row">
       		<div class="col-md-12">
-				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s">แนะนำสำนักวิชา</h3>
+				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s">Informatics Runway</h3>
 			</div>
          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="blog-item-wrapper wow fadeIn" data-wow-delay="0.9s">
@@ -55,7 +55,7 @@
          <div class="row">
       		<div class="col-md-12">
 				<h3><i class="fa fa-quote-left" style="color: #8ec2e3;"></i>
-				<span style="color: #007bff;">สารสนเทศศาสตร์ อาชีพสำหรับศตวรรษที่ 21</span><i class="fa fa-quote-right" style="color: #8ec2e3;"></i></h3>
+				<span style="color: #007bff;">Informatics are jobs of 21st century</span><i class="fa fa-quote-right" style="color: #8ec2e3;"></i></h3>
 			</div>
 		</div>
 		<div class="row">
@@ -160,7 +160,7 @@
    <div class="container">
          <div class="row">
       		<div class="col-md-12">
-				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s"> VDO เด่น </h3>
+				<h3 class="small-title mb-3 wow fadeInUp" data-wow-delay="0.3s"> Informatics VDO </h3>
 			</div>
 		</div>
 		<div class="row">
